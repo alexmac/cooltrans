@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "server",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/cooltrans_server.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+        }
+    ]
+}

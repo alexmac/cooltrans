@@ -1,0 +1,20 @@
+[packages]
+aiohttp = "~=3.9"
+alxhttp = "*"
+tenacity = "*"
+
+[dev-packages]
+black = "*"
+isort = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-mock = "*"
+ruff = "*"
+twine = "*"
+
+[scripts]
+server = "python cooltrans_server.py"
+tidy = "bash -cxe 'isort . && black . && ruff .'"
+
+[requires]
+python_version = "3.11"
