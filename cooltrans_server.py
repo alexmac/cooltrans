@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import asyncio
+import subprocess
 import logging
 import re
+import tempfile
 from functools import partial
 from typing import List, Optional
 
@@ -50,6 +52,47 @@ async def caltrans_proxy(s: CooltransServer, req: Request) -> StreamResponse:
     )
 
 
+async def caltrans_thumbnail(s: CooltransServer, req: Request) -> StreamResponse:
+    loc = URL.build(path=req.match_info["loc"])
+
+    if f"/{loc.parent}" not in valid_paths:
+        return HTTPBadRequest(text="invalid path")
+
+    if not stream_file_pattern.match(f"/{loc.path}"):
+        return HTTPBadRequest(text="invalid path")
+
+    if not loc.path.endswith("playlist.m3u8"):
+        return HTTPBadRequest(text="invalid path")
+
+    with tempfile.NamedTemporaryFile(mode="w+b", suffix=".jpeg") as tf:
+        process = await asyncio.create_subprocess_exec(
+            *[
+                "ffmpeg",
+                "-y",
+                "-i",
+                f"https://0xcafe.tech/api/cooltrans/proxy/{loc.path}",
+                "-vframes",
+                "1",
+                tf.name,
+            ],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        )
+
+        await process.communicate()
+
+        body = tf.read()
+
+    return Response(
+        body=body,
+        status=200,
+        headers={
+            "cache-control": "public, max-age=60, stale-while-revalidate=600",
+            "content-type": "image/jpeg",
+        },
+    )
+
+
 async def caltrans_cctv_locations(s: CooltransServer, req: Request) -> StreamResponse:
     return json_response({"locations": cctv_locations})
 
@@ -70,7 +113,7 @@ async def security_headers(request: Request, handler: Handler):
     resp.headers[
         "permissions-policy"
     ] = "accelerometer=(), autoplay=(self), camera=(), fullscreen=(self), geolocation=(), gyroscope=(), interest-cohort=(), magnetometer=(), microphone=(), payment=(), sync-xhr=()"
-    resp.headers["Access-Control-Allow-Origin"] = "http://localhost:8080"
+    # resp.headers["Access-Control-Allow-Origin"] = "http://localhost:8080"
 
     return resp
 
@@ -85,6 +128,9 @@ class CooltransServer(Server):
 
         self.app.router.add_get(
             r"/api/cooltrans/proxy/{loc:.+}", partial(caltrans_proxy, self)
+        )
+        self.app.router.add_get(
+            r"/api/cooltrans/thumbnail/{loc:.+}", partial(caltrans_thumbnail, self)
         )
 
         self.app.router.add_get(

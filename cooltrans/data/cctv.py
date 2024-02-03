@@ -1,1152 +1,1612 @@
 cctv_locations = {
-    "3 / Sacramento / Hwy 5 at Pocket": {
+    "3-Sacramento-Hwy5atPocket": {
         "longitude": "-121.510528",
         "latitude": "38.481128",
         "stream": "/D3/5_Pocket_Rd_OC_SAC5_SB.stream",
+        "simple_name": "3-Sacramento-Hwy5atPocket",
+        "friendly_name": "3 / Sacramento / Hwy 5 at Pocket",
     },
-    "3 / Sacramento / Hwy 5 at Florin": {
+    "3-Sacramento-Hwy5atFlorin": {
         "longitude": "-121.51647",
         "latitude": "38.495353",
         "stream": "/D3/5_Florin_Rd_SAC5_MD.stream",
+        "simple_name": "3-Sacramento-Hwy5atFlorin",
+        "friendly_name": "3 / Sacramento / Hwy 5 at Florin",
     },
-    "3 / Sacramento / Hwy 5 at Gloria": {
+    "3-Sacramento-Hwy5atGloria": {
         "longitude": "-121.522427",
         "latitude": "38.509961",
         "stream": "/D3/5_Gloria_Dr_SAC5_SB.stream",
+        "simple_name": "3-Sacramento-Hwy5atGloria",
+        "friendly_name": "3 / Sacramento / Hwy 5 at Gloria",
     },
-    "3 / Sacramento / Hwy 5 at 43rd Ave": {
+    "3-Sacramento-Hwy5at43rdAve": {
         "longitude": "-121.52178",
         "latitude": "38.516437",
         "stream": "/D3/5_43rd_Ave_SAC5_NB.stream",
+        "simple_name": "3-Sacramento-Hwy5at43rdAve",
+        "friendly_name": "3 / Sacramento / Hwy 5 at 43rd Ave",
     },
-    "3 / Sacramento / Hwy 5 at Seamas": {
+    "3-Sacramento-Hwy5atSeamas": {
         "longitude": "-121.521413",
         "latitude": "38.526032",
         "stream": "/D3/5_Seamas_Ave_JNO_SAC5_SB.stream",
+        "simple_name": "3-Sacramento-Hwy5atSeamas",
+        "friendly_name": "3 / Sacramento / Hwy 5 at Seamas",
     },
-    "3 / Sacramento / Hwy 5 at Sutterville": {
+    "3-Sacramento-Hwy5atSutterville": {
         "longitude": "-121.510692",
         "latitude": "38.540832",
         "stream": "/D3/5_Sutterville_Rd_SAC5_MD.stream",
+        "simple_name": "3-Sacramento-Hwy5atSutterville",
+        "friendly_name": "3 / Sacramento / Hwy 5 at Sutterville",
     },
-    "3 / Sacramento / Hwy 5 at Hwy 50": {
+    "3-Sacramento-Hwy5atHwy50": {
         "longitude": "-121.509993",
         "latitude": "38.568818",
         "stream": "/D3/5_JCT50_SAC5_NB.stream",
+        "simple_name": "3-Sacramento-Hwy5atHwy50",
+        "friendly_name": "3 / Sacramento / Hwy 5 at Hwy 50",
     },
-    "3 / Sacramento / Hwy 5 at P St": {
+    "3-Sacramento-Hwy5atPSt": {
         "longitude": "-121.507587",
         "latitude": "38.577828",
         "stream": "/D3/5_P_St_SAC5_NB.stream",
+        "simple_name": "3-Sacramento-Hwy5atPSt",
+        "friendly_name": "3 / Sacramento / Hwy 5 at P St",
     },
-    "3 / Sacramento / Hwy 5 at Richards": {
+    "3-Sacramento-Hwy5atRichards": {
         "longitude": " -121.503231",
         "latitude": "38.597687",
         "stream": "/D3/5_Richards_Blvd_SAC5_NB.stream",
+        "simple_name": "3-Sacramento-Hwy5atRichards",
+        "friendly_name": "3 / Sacramento / Hwy 5 at Richards",
     },
-    "3 / Sacramento / Hwy 5 at Hwy 80": {
+    "3-Sacramento-Hwy5atHwy80": {
         "longitude": "-121.517136",
         "latitude": "38.624972",
         "stream": "/D3/80_JCT5_OC_SAC80_MD.stream",
+        "simple_name": "3-Sacramento-Hwy5atHwy80",
+        "friendly_name": "3 / Sacramento / Hwy 5 at Hwy 80",
     },
-    "3 / West Sacramento / Hwy 50 at Harbor": {
+    "3-WestSacramento-Hwy50atHarbor": {
         "longitude": "-121.548377",
         "latitude": "38.575021",
         "stream": "/D3/50_Harbor_Blvd_OC_YOL50_MD.stream",
+        "simple_name": "3-WestSacramento-Hwy50atHarbor",
+        "friendly_name": "3 / West Sacramento / Hwy 50 at Harbor",
     },
-    "3 / West Sacramento / Hwy 50 at Jefferson Blvd JWO": {
+    "3-WestSacramento-Hwy50atJeffersonBlvdJWO": {
         "longitude": "-121.526768",
         "latitude": "38.576876",
         "stream": "/D3/50_Jefferson_Blvd_JWO_YOL50_EB.stream",
+        "simple_name": "3-WestSacramento-Hwy50atJeffersonBlvdJWO",
+        "friendly_name": "3 / West Sacramento / Hwy 50 at Jefferson Blvd JWO",
     },
-    "3 / Sacramento / Hwy 50 at 4th St": {
+    "3-Sacramento-Hwy50at4thSt": {
         "longitude": "-121.50902",
         "latitude": "38.56824",
         "stream": "/D3/50_4th_St_SAC50_WB.stream",
+        "simple_name": "3-Sacramento-Hwy50at4thSt",
+        "friendly_name": "3 / Sacramento / Hwy 50 at 4th St",
     },
-    "3 / Sacramento / Hwy 50 at 28th St": {
+    "3-Sacramento-Hwy50at28thSt": {
         "longitude": "-121.47599",
         "latitude": "38.558739",
         "stream": "/D3/50_28th_St_SAC50_EB.stream",
+        "simple_name": "3-Sacramento-Hwy50at28thSt",
+        "friendly_name": "3 / Sacramento / Hwy 50 at 28th St",
     },
-    "3 / Sacramento / Hwy 50 at 65th St": {
+    "3-Sacramento-Hwy50at65thSt": {
         "longitude": "-121.423579",
         "latitude": "38.550324",
         "stream": "/D3/50_65th_St_JEO_SAC50_EB.stream",
+        "simple_name": "3-Sacramento-Hwy50at65thSt",
+        "friendly_name": "3 / Sacramento / Hwy 50 at 65th St",
     },
-    "3 / Sacramento / Hwy 50 at Watt": {
+    "3-Sacramento-Hwy50atWatt": {
         "longitude": "-121.379379",
         "latitude": "38.558731",
         "stream": "/D3/50_Watt_Ave_OC_SAC50_WB.stream",
+        "simple_name": "3-Sacramento-Hwy50atWatt",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Watt",
     },
-    "3 / Placerville / Hwy 50 at Spring": {
+    "3-Placerville-Hwy50atSpring": {
         "longitude": "-120.805065",
         "latitude": "38.727947",
         "stream": "/D3/50_Spring_St_ED50_EB.stream",
+        "simple_name": "3-Placerville-Hwy50atSpring",
+        "friendly_name": "3 / Placerville / Hwy 50 at Spring",
     },
-    "3 / Meyers / Hwy 50 at Meyers": {
+    "3-Meyers-Hwy50atMeyers": {
         "longitude": "-120.022959",
         "latitude": "38.850899",
         "stream": "/D3/50_Meyers_ED50_WB.stream",
+        "simple_name": "3-Meyers-Hwy50atMeyers",
+        "friendly_name": "3 / Meyers / Hwy 50 at Meyers",
     },
-    "3 / South Lake Tahoe / Hwy 50 at Hwy 89": {
+    "3-SouthLakeTahoe-Hwy50atHwy89": {
         "longitude": "-120.00461",
         "latitude": "38.913277",
         "stream": "/D3/50_JCT89N_ED50_EB.stream",
+        "simple_name": "3-SouthLakeTahoe-Hwy50atHwy89",
+        "friendly_name": "3 / South Lake Tahoe / Hwy 50 at Hwy 89",
     },
-    "3 / South Lake Tahoe / Hwy 50 at Ski Run": {
+    "3-SouthLakeTahoe-Hwy50atSkiRun": {
         "longitude": "-119.95724",
         "latitude": "38.948564",
         "stream": "/D3/50_Ski_Run_Blvd_ED50_EB.stream",
+        "simple_name": "3-SouthLakeTahoe-Hwy50atSkiRun",
+        "friendly_name": "3 / South Lake Tahoe / Hwy 50 at Ski Run",
     },
-    "3 / Sacramento / Hwy 51 at T St": {
+    "3-Sacramento-Hwy51atTSt": {
         "longitude": "-121.472602",
         "latitude": "38.560102",
         "stream": "/D3/51_T_St.stream",
+        "simple_name": "3-Sacramento-Hwy51atTSt",
+        "friendly_name": "3 / Sacramento / Hwy 51 at T St",
     },
-    "3 / Sacramento / Hwy 51 at N St": {
+    "3-Sacramento-Hwy51atNSt": {
         "longitude": "-121.468902",
         "latitude": "38.569359",
         "stream": "/D3/51_N_St_SAC51_NB.stream",
+        "simple_name": "3-Sacramento-Hwy51atNSt",
+        "friendly_name": "3 / Sacramento / Hwy 51 at N St",
     },
-    "3 / Sacramento / Hwy 51 at E St": {
+    "3-Sacramento-Hwy51atESt": {
         "longitude": "-121.464797",
         "latitude": "38.578995",
         "stream": "/D3/51_E_St_UC_SAC51_NB.stream",
+        "simple_name": "3-Sacramento-Hwy51atESt",
+        "friendly_name": "3 / Sacramento / Hwy 51 at E St",
     },
-    "3 / Sacramento / Hwy 51 at Elvas": {
+    "3-Sacramento-Hwy51atElvas": {
         "longitude": "-121.451343",
         "latitude": "38.585603",
         "stream": "/D3/51_Elvas_SAC51_SB.stream",
+        "simple_name": "3-Sacramento-Hwy51atElvas",
+        "friendly_name": "3 / Sacramento / Hwy 51 at Elvas",
     },
-    "3 / Sacramento / Hwy 51 at Exposition Blvd": {
+    "3-Sacramento-Hwy51atExpositionBlvd": {
         "longitude": "-121.443897",
         "latitude": "38.597162",
         "stream": "/D3/51_Exposition_Blvd_OC_SAC51_SB.stream",
+        "simple_name": "3-Sacramento-Hwy51atExpositionBlvd",
+        "friendly_name": "3 / Sacramento / Hwy 51 at Exposition Blvd",
     },
-    "3 / Sacramento / Hwy 51 at Arden": {
+    "3-Sacramento-Hwy51atArden": {
         "longitude": "-121.433335",
         "latitude": "38.604544",
         "stream": "/D3/51_Arden_Way_JNO_SAC51_NB.stream",
+        "simple_name": "3-Sacramento-Hwy51atArden",
+        "friendly_name": "3 / Sacramento / Hwy 51 at Arden",
     },
-    "3 / Sacramento / Hwy 51 at El Camino Ave": {
+    "3-Sacramento-Hwy51atElCaminoAve": {
         "longitude": "-121.425964",
         "latitude": "38.611313",
         "stream": "/D3/51_El_Camino_OC_SAC51_NB.stream",
+        "simple_name": "3-Sacramento-Hwy51atElCaminoAve",
+        "friendly_name": "3 / Sacramento / Hwy 51 at El Camino Ave",
     },
-    "3 / Sacramento / Hwy 51 at Watt": {
+    "3-Sacramento-Hwy51atWatt": {
         "longitude": "-121.383156",
         "latitude": "38.639835",
         "stream": "/D3/51_Watt_Ave_OC_SAC51_NB.stream",
+        "simple_name": "3-Sacramento-Hwy51atWatt",
+        "friendly_name": "3 / Sacramento / Hwy 51 at Watt",
     },
-    "3 / Roseville / Hwy 65 at Pleasant Grove": {
+    "3-Roseville-Hwy65atPleasantGrove": {
         "longitude": "-121.284268",
         "latitude": "38.78663",
         "stream": "/D3/65_Pleasant_Grove_Blvd_OC_PLA65_NB.stream",
+        "simple_name": "3-Roseville-Hwy65atPleasantGrove",
+        "friendly_name": "3 / Roseville / Hwy 65 at Pleasant Grove",
     },
-    "3 / Davis / Hwy 80 at Chiles": {
+    "3-Davis-Hwy80atChiles": {
         "longitude": "-121.638911",
         "latitude": "38.563581",
         "stream": "/D3/80_Chiles_Rd_UC_YOL80_WB.stream",
+        "simple_name": "3-Davis-Hwy80atChiles",
+        "friendly_name": "3 / Davis / Hwy 80 at Chiles",
     },
-    "3 / West Sacramento / Hwy 80 at West Capitol": {
+    "3-WestSacramento-Hwy80atWestCapitol": {
         "longitude": "-121.581819",
         "latitude": "38.573915",
         "stream": "/D3/80_West_Capitol_Ave_JWO_YOL80_WB.stream",
+        "simple_name": "3-WestSacramento-Hwy80atWestCapitol",
+        "friendly_name": "3 / West Sacramento / Hwy 80 at West Capitol",
     },
-    "3 / Sacramento / Hwy 80 at Bryte Bend": {
+    "3-Sacramento-Hwy80atBryteBend": {
         "longitude": "-121.544722",
         "latitude": "38.602967",
         "stream": "/D3/80_Bryte_Bend_Bridge_SAC80_EB.stream",
+        "simple_name": "3-Sacramento-Hwy80atBryteBend",
+        "friendly_name": "3 / Sacramento / Hwy 80 at Bryte Bend",
     },
-    "3 / Sacramento / Hwy 80 at Truxel": {
+    "3-Sacramento-Hwy80atTruxel": {
         "longitude": "-121.50092",
         "latitude": "38.634014",
         "stream": "/D3/80_Truxel_Rd_OC_SAC80_EB.stream",
+        "simple_name": "3-Sacramento-Hwy80atTruxel",
+        "friendly_name": "3 / Sacramento / Hwy 80 at Truxel",
     },
-    "3 / Sacramento / Hwy 80 at Norwood": {
+    "3-Sacramento-Hwy80atNorwood": {
         "longitude": "-121.457075",
         "latitude": "38.641702",
         "stream": "/D3/80_Norwood_Ave_OC_SAC80_WB.stream",
+        "simple_name": "3-Sacramento-Hwy80atNorwood",
+        "friendly_name": "3 / Sacramento / Hwy 80 at Norwood",
     },
-    "3 / Sacramento / Hwy 80 at Raley": {
+    "3-Sacramento-Hwy80atRaley": {
         "longitude": "-121.429317",
         "latitude": "38.643198",
         "stream": "/D3/80_Raley_Blvd_OC_SAC80_WBy.stream",
+        "simple_name": "3-Sacramento-Hwy80atRaley",
+        "friendly_name": "3 / Sacramento / Hwy 80 at Raley",
     },
-    "3 / North Highlands / Hwy 80 at 51/80 Split": {
+    "3-NorthHighlands-Hwy80at51-80Split": {
         "longitude": "-121.367565",
         "latitude": "38.654136",
         "stream": "/D3/80_JCT51_SPLIT_SAC80_EB.stream",
+        "simple_name": "3-NorthHighlands-Hwy80at51-80Split",
+        "friendly_name": "3 / North Highlands / Hwy 80 at 51/80 Split",
     },
-    "3 / Sacramento / Hwy 80 at Greenback": {
+    "3-Sacramento-Hwy80atGreenback": {
         "longitude": "-121.336574",
         "latitude": "38.682718",
         "stream": "/D3/80_Greenback_Ln_OC_SAC80_EB.stream",
+        "simple_name": "3-Sacramento-Hwy80atGreenback",
+        "friendly_name": "3 / Sacramento / Hwy 80 at Greenback",
     },
-    "3 / Citrus Heights / Hwy 80 at Antelope": {
+    "3-CitrusHeights-Hwy80atAntelope": {
         "longitude": "-121.310319",
         "latitude": "38.707251",
         "stream": "/D3/80_Antelope_Rd_OC_SAC80_WB.stream",
+        "simple_name": "3-CitrusHeights-Hwy80atAntelope",
+        "friendly_name": "3 / Citrus Heights / Hwy 80 at Antelope",
     },
-    "3 / Applegate / Hwy 80 at Applegate": {
+    "3-Applegate-Hwy80atApplegate": {
         "longitude": "-120.993299",
         "latitude": "39.003707",
         "stream": "/D3/80_Applegate_PLA80_EB.stream",
+        "simple_name": "3-Applegate-Hwy80atApplegate",
+        "friendly_name": "3 / Applegate / Hwy 80 at Applegate",
     },
-    "3 / Colfax / Hwy 80 at Colfax": {
+    "3-Colfax-Hwy80atColfax": {
         "longitude": "-120.949353",
         "latitude": "39.095665",
         "stream": "/D3/80_Colfax_PLA80_EB.stream",
+        "simple_name": "3-Colfax-Hwy80atColfax",
+        "friendly_name": "3 / Colfax / Hwy 80 at Colfax",
     },
-    "3 / Gold Run / Hwy 80 at Dutch Flat": {
+    "3-GoldRun-Hwy80atDutchFlat": {
         "longitude": "-120.836073",
         "latitude": "39.188982",
         "stream": "/D3/80_Dutch_Flat_PLA80_WB.stream",
+        "simple_name": "3-GoldRun-Hwy80atDutchFlat",
+        "friendly_name": "3 / Gold Run / Hwy 80 at Dutch Flat",
     },
-    "3 / Alta / Hwy 80 at Crystal Springs": {
+    "3-Alta-Hwy80atCrystalSprings": {
         "longitude": "-120.786343",
         "latitude": "39.209215",
         "stream": "/D3/80_crystal_springs.stream",
+        "simple_name": "3-Alta-Hwy80atCrystalSprings",
+        "friendly_name": "3 / Alta / Hwy 80 at Crystal Springs",
     },
-    "3 / Blue Canyon / Hwy 80 at Whitmore Grade": {
+    "3-BlueCanyon-Hwy80atWhitmoreGrade": {
         "longitude": "-120.719639",
         "latitude": "39.269867",
         "stream": "/D3/80_Whitmore_Grade_PLA80_WB.stream",
+        "simple_name": "3-BlueCanyon-Hwy80atWhitmoreGrade",
+        "friendly_name": "3 / Blue Canyon / Hwy 80 at Whitmore Grade",
     },
-    "3 / Soda Springs / Hwy 80 at Kingvale EB": {
+    "3-SodaSprings-Hwy80atKingvaleEB": {
         "longitude": "-120.448465",
         "latitude": "39.313549",
         "stream": "/D3/80_Kingvale_PLA80_EB.stream",
+        "simple_name": "3-SodaSprings-Hwy80atKingvaleEB",
+        "friendly_name": "3 / Soda Springs / Hwy 80 at Kingvale EB",
     },
-    "3 / Soda Springs / Hwy 80 at Kingvale WB": {
+    "3-SodaSprings-Hwy80atKingvaleWB": {
         "longitude": "-120.439405",
         "latitude": "39.31582",
         "stream": "/D3/80_Kingvale_PLA80_WB.stream",
+        "simple_name": "3-SodaSprings-Hwy80atKingvaleWB",
+        "friendly_name": "3 / Soda Springs / Hwy 80 at Kingvale WB",
     },
-    "3 / Soda Springs / Hwy 80 at Soda Springs EB": {
+    "3-SodaSprings-Hwy80atSodaSpringsEB": {
         "longitude": "-120.389657",
         "latitude": "39.326506",
         "stream": "/D3/80_Soda_Springs_NEV80_EB.stream",
+        "simple_name": "3-SodaSprings-Hwy80atSodaSpringsEB",
+        "friendly_name": "3 / Soda Springs / Hwy 80 at Soda Springs EB",
     },
-    "3 / Truckee / Hwy 80 at Old Ag Sta": {
+    "3-Truckee-Hwy80atOldAgSta": {
         "longitude": "-120.219099",
         "latitude": "39.323597",
         "stream": "/D3/80_AG_Station_NEV80_EB.stream",
+        "simple_name": "3-Truckee-Hwy80atOldAgSta",
+        "friendly_name": "3 / Truckee / Hwy 80 at Old Ag Sta",
     },
-    "3 / Truckee / Hwy 80 at Hwy 89": {
+    "3-Truckee-Hwy80atHwy89": {
         "longitude": "-120.207395",
         "latitude": "39.322884",
         "stream": "/D3/80_JCT89S_NEV80_EB.stream",
+        "simple_name": "3-Truckee-Hwy80atHwy89",
+        "friendly_name": "3 / Truckee / Hwy 80 at Hwy 89",
     },
-    "3 / Truckee / Hwy 80 at 267": {
+    "3-Truckee-Hwy80at267": {
         "longitude": "-120.16833",
         "latitude": "39.33791",
         "stream": "/D3/80_JCT267_NEV80_EB.stream",
+        "simple_name": "3-Truckee-Hwy80at267",
+        "friendly_name": "3 / Truckee / Hwy 80 at 267",
     },
-    "3 / Truckee / Hwy 80 at Truckee Scales": {
+    "3-Truckee-Hwy80atTruckeeScales": {
         "longitude": "-120.130051",
         "latitude": "39.362234",
         "stream": "/D3/80_Truckee_Scales_NEV80_WB.stream",
+        "simple_name": "3-Truckee-Hwy80atTruckeeScales",
+        "friendly_name": "3 / Truckee / Hwy 80 at Truckee Scales",
     },
-    "3 / Truckee / Hwy 80 at Floriston": {
+    "3-Truckee-Hwy80atFloriston": {
         "longitude": "-120.023839",
         "latitude": "39.395554",
         "stream": "/D3/80_Floriston_Way_NEV80_EB.stream",
+        "simple_name": "3-Truckee-Hwy80atFloriston",
+        "friendly_name": "3 / Truckee / Hwy 80 at Floriston",
     },
-    "3 / Tahoe City / Hwy 89 at Hwy 28": {
+    "3-TahoeCity-Hwy89atHwy28": {
         "longitude": "-120.14546",
         "latitude": "39.16774",
         "stream": "/D3/89_JCT28_PLA89_NB.stream",
+        "simple_name": "3-TahoeCity-Hwy89atHwy28",
+        "friendly_name": "3 / Tahoe City / Hwy 89 at Hwy 28",
     },
-    "3 / Olympic Valley / Hwy 89 at Rampart": {
+    "3-OlympicValley-Hwy89atRampart": {
         "longitude": "-120.177562",
         "latitude": "39.165377",
         "stream": "/D3/89_rampart.stream",
+        "simple_name": "3-OlympicValley-Hwy89atRampart",
+        "friendly_name": "3 / Olympic Valley / Hwy 89 at Rampart",
     },
-    "3 / Olympic Valley / Hwy 89 at Olympic Valley": {
+    "3-OlympicValley-Hwy89atOlympicValley": {
         "longitude": "-120.199202",
         "latitude": "39.204709",
         "stream": "/D3/89_Olympic_Valley_Rd_PLA89_NB.stream",
+        "simple_name": "3-OlympicValley-Hwy89atOlympicValley",
+        "friendly_name": "3 / Olympic Valley / Hwy 89 at Olympic Valley",
     },
-    "3 / Elk Grove / Hwy 99 at Grantline": {
+    "3-ElkGrove-Hwy99atGrantline": {
         "longitude": "-121.361428",
         "latitude": "38.376488",
         "stream": "/D3/99_Grantline_Rd_OC_SAC99_NB.stream",
+        "simple_name": "3-ElkGrove-Hwy99atGrantline",
+        "friendly_name": "3 / Elk Grove / Hwy 99 at Grantline",
     },
-    "3 / Sacramento / Hwy 99 at 47th Ave": {
+    "3-Sacramento-Hwy99at47thAve": {
         "longitude": "-121.46024",
         "latitude": "38.51022",
         "stream": "/D3/99_47th_Ave_OC_SAC99_SB.stream",
+        "simple_name": "3-Sacramento-Hwy99at47thAve",
+        "friendly_name": "3 / Sacramento / Hwy 99 at 47th Ave",
     },
-    "3 / Northstar / Hwy 267 at Northstar": {
+    "3-Northstar-Hwy267atNorthstar": {
         "longitude": "-120.103798",
         "latitude": "39.287024",
         "stream": "/D3/267_Northstar_PLA267_WB.stream",
+        "simple_name": "3-Northstar-Hwy267atNorthstar",
+        "friendly_name": "3 / Northstar / Hwy 267 at Northstar",
     },
-    "3 / Galt / Hwy 99 at Twin Cities": {
+    "3-Galt-Hwy99atTwinCities": {
         "longitude": "-121.306928",
         "latitude": "38.28277",
         "stream": "/D3/99_Twin_Cities_Rd_JSO_SAC99_NB.stream",
+        "simple_name": "3-Galt-Hwy99atTwinCities",
+        "friendly_name": "3 / Galt / Hwy 99 at Twin Cities",
     },
-    "3 / Sacramento / Hwy 5 at Laguna SB": {
+    "3-Sacramento-Hwy5atLagunaSB": {
         "longitude": "-121.490253",
         "latitude": "38.4386",
         "stream": "/D3/5_Laguna_Blvd_JNO_SAC5_SB.stream",
+        "simple_name": "3-Sacramento-Hwy5atLagunaSB",
+        "friendly_name": "3 / Sacramento / Hwy 5 at Laguna SB",
     },
-    "3 / Elk Grove / Hwy 5 at Laguna NB": {
+    "3-ElkGrove-Hwy5atLagunaNB": {
         "longitude": "-121.489032",
         "latitude": "38.435527",
         "stream": "/D3/5_Laguna_Blvd_JNO_SAC5_NB.stream",
+        "simple_name": "3-ElkGrove-Hwy5atLagunaNB",
+        "friendly_name": "3 / Elk Grove / Hwy 5 at Laguna NB",
     },
-    "3 / Elk Grove / Hwy 99 at Sheldon": {
+    "3-ElkGrove-Hwy99atSheldon": {
         "longitude": "-121.406059",
         "latitude": "38.446887",
         "stream": "/D3/99_Sheldon_Rd_JNO_SAC99_SB.stream",
+        "simple_name": "3-ElkGrove-Hwy99atSheldon",
+        "friendly_name": "3 / Elk Grove / Hwy 99 at Sheldon",
     },
-    "3 / Rocklin / Hwy 80 at Rocklin": {
+    "3-Rocklin-Hwy80atRocklin": {
         "longitude": "-121.228026",
         "latitude": "38.784226",
         "stream": "/D3/80_Rocklin_Rd_JWO_PLA80_WB.stream",
+        "simple_name": "3-Rocklin-Hwy80atRocklin",
+        "friendly_name": "3 / Rocklin / Hwy 80 at Rocklin",
     },
-    "3 / Sacramento / Hwy 99 at Elkhorn": {
+    "3-Sacramento-Hwy99atElkhorn": {
         "longitude": "-121.540398",
         "latitude": "38.691962",
         "stream": "/D3/99_W_Elkhorn_Blvd_JNO_SAC99_SB.stream",
+        "simple_name": "3-Sacramento-Hwy99atElkhorn",
+        "friendly_name": "3 / Sacramento / Hwy 99 at Elkhorn",
     },
-    "3 / Soda Springs / Hwy 80 at Donner Summit": {
+    "3-SodaSprings-Hwy80atDonnerSummit": {
         "longitude": "-120.347722",
         "latitude": "39.339039",
         "stream": "/D3/80_Donner_Summit_JWO_NEV80_EB.stream",
+        "simple_name": "3-SodaSprings-Hwy80atDonnerSummit",
+        "friendly_name": "3 / Soda Springs / Hwy 80 at Donner Summit",
     },
-    "3 / Kings Beach / Hwy 28 at Hwy 267 Kings Beach": {
+    "3-KingsBeach-Hwy28atHwy267KingsBeach": {
         "longitude": "-120.03157",
         "latitude": "39.237831",
         "stream": "/D3/28_JCT267_JWO_KINGS_BEACH_PLA28_EB.stream",
+        "simple_name": "3-KingsBeach-Hwy28atHwy267KingsBeach",
+        "friendly_name": "3 / Kings Beach / Hwy 28 at Hwy 267 Kings Beach",
     },
-    "3 / South Lake Tahoe / Hwy 50 at Echo Summit": {
+    "3-SouthLakeTahoe-Hwy50atEchoSummit": {
         "longitude": "-120.02928",
         "latitude": "38.81321",
         "stream": "/D3/50_Echo_Summit_ED50_EB.stream",
+        "simple_name": "3-SouthLakeTahoe-Hwy50atEchoSummit",
+        "friendly_name": "3 / South Lake Tahoe / Hwy 50 at Echo Summit",
     },
-    "3 / Truckee / Hwy 80 at Donner Lake": {
+    "3-Truckee-Hwy80atDonnerLake": {
         "longitude": "-120.285422",
         "latitude": "39.33075",
         "stream": "/D3/80_Donner_Lake_Rd_JEO_NEV80_WB.stream",
+        "simple_name": "3-Truckee-Hwy80atDonnerLake",
+        "friendly_name": "3 / Truckee / Hwy 80 at Donner Lake",
     },
-    "3 / Soda Springs / Hwy 80 at Castle Peak": {
+    "3-SodaSprings-Hwy80atCastlePeak": {
         "longitude": "-120.355626",
         "latitude": "39.334602",
         "stream": "/D3/80_Castle_Peak_NEV80_EB.stream",
+        "simple_name": "3-SodaSprings-Hwy80atCastlePeak",
+        "friendly_name": "3 / Soda Springs / Hwy 80 at Castle Peak",
     },
-    "3 / Tahoe Vista / Hwy 267 at Brockway Summit": {
+    "3-TahoeVista-Hwy267atBrockwaySummit": {
         "longitude": "-120.071841",
         "latitude": "39.26079",
         "stream": "/D3/267_Brockway_Summit_PLA267_EB.stream",
+        "simple_name": "3-TahoeVista-Hwy267atBrockwaySummit",
+        "friendly_name": "3 / Tahoe Vista / Hwy 267 at Brockway Summit",
     },
-    "3 / Roseville / Hwy 80 at Taylor": {
+    "3-Roseville-Hwy80atTaylor": {
         "longitude": "-121.25594",
         "latitude": "38.765875",
         "stream": "/D3/80_Taylor_Rd_OC_PLA80_WB.stream",
+        "simple_name": "3-Roseville-Hwy80atTaylor",
+        "friendly_name": "3 / Roseville / Hwy 80 at Taylor",
     },
-    "3 / Roseville / Hwy 65 at Hwy 80": {
+    "3-Roseville-Hwy65atHwy80": {
         "longitude": "-121.24929",
         "latitude": "38.770111",
         "stream": "/D3/65_JCT80_PLA65_NB.stream",
+        "simple_name": "3-Roseville-Hwy65atHwy80",
+        "friendly_name": "3 / Roseville / Hwy 65 at Hwy 80",
     },
-    "3 / Rocklin / Hwy 65 at Blue Oaks": {
+    "3-Rocklin-Hwy65atBlueOaks": {
         "longitude": "-121.298418",
         "latitude": "38.796599",
         "stream": "/D3/65_Blue_Oaks_Blvd_JNO_PLA65_NB.stream",
+        "simple_name": "3-Rocklin-Hwy65atBlueOaks",
+        "friendly_name": "3 / Rocklin / Hwy 65 at Blue Oaks",
     },
-    "3 / Chico / Hwy 32 at Main St Chico": {
+    "3-Chico-Hwy32atMainStChico": {
         "longitude": "-121.834856",
         "latitude": "39.725615",
         "stream": "/D3/32_Main_St_Chico_BUT32_EB.stream",
+        "simple_name": "3-Chico-Hwy32atMainStChico",
+        "friendly_name": "3 / Chico / Hwy 32 at Main St Chico",
     },
-    "3 / Lincoln / Hwy 65 at Nelson": {
+    "3-Lincoln-Hwy65atNelson": {
         "longitude": "-121.340356",
         "latitude": "38.886197",
         "stream": "/D3/65_Nelson_Ln_PLA65_NB.stream",
+        "simple_name": "3-Lincoln-Hwy65atNelson",
+        "friendly_name": "3 / Lincoln / Hwy 65 at Nelson",
     },
-    "3 / Lincoln / Hwy 65 at Wise": {
+    "3-Lincoln-Hwy65atWise": {
         "longitude": "-121.368768",
         "latitude": "38.92624",
         "stream": "/D3/65_West_Wise_Rd_PLA65_SB.stream",
+        "simple_name": "3-Lincoln-Hwy65atWise",
+        "friendly_name": "3 / Lincoln / Hwy 65 at Wise",
     },
-    "3 / Lincoln / Hwy 65 at Industrial": {
+    "3-Lincoln-Hwy65atIndustrial": {
         "longitude": "-121.30139",
         "latitude": "38.863919",
         "stream": "/D3/65_Industrial_Ave_UC_PLA65_MD.stream",
+        "simple_name": "3-Lincoln-Hwy65atIndustrial",
+        "friendly_name": "3 / Lincoln / Hwy 65 at Industrial",
     },
-    "3 / Twin Bridges / Hwy 50 at Twin Bridges": {
+    "3-TwinBridges-Hwy50atTwinBridges": {
         "longitude": "-120.124303",
         "latitude": "38.811193",
         "stream": "/D3/50_Twin_bridges_ED50_EB.stream",
+        "simple_name": "3-TwinBridges-Hwy50atTwinBridges",
+        "friendly_name": "3 / Twin Bridges / Hwy 50 at Twin Bridges",
     },
-    "3 / Echo Lake / Hwy 50 at Sierra EB": {
+    "3-EchoLake-Hwy50atSierraEB": {
         "longitude": "-120.07592",
         "latitude": "38.81914",
         "stream": "/D3/50_Sierra_at_Tahoe_Rd_ED50_EB.stream",
+        "simple_name": "3-EchoLake-Hwy50atSierraEB",
+        "friendly_name": "3 / Echo Lake / Hwy 50 at Sierra EB",
     },
-    "3 / Truckee / Hwy 89 at West River": {
+    "3-Truckee-Hwy89atWestRiver": {
         "longitude": "-120.204003",
         "latitude": "39.314744",
         "stream": "/D3/89_West_River_St_PLA89_NB.stream",
+        "simple_name": "3-Truckee-Hwy89atWestRiver",
+        "friendly_name": "3 / Truckee / Hwy 89 at West River",
     },
-    "3 / Lincoln / Hwy 65 at Ferrari Ranch": {
+    "3-Lincoln-Hwy65atFerrariRanch": {
         "longitude": "-121.307918",
         "latitude": "38.870571",
         "stream": "/D3/65_Ferrari_Ranch_Rd_PLA65_NB.stream",
+        "simple_name": "3-Lincoln-Hwy65atFerrariRanch",
+        "friendly_name": "3 / Lincoln / Hwy 65 at Ferrari Ranch",
     },
-    "3 / Williams / Hwy 5 at Williams NB": {
+    "3-Williams-Hwy5atWilliamsNB": {
         "longitude": "-122.14045",
         "latitude": "39.15128",
         "stream": "/D3/5_Williams_COL5_NB.stream",
+        "simple_name": "3-Williams-Hwy5atWilliamsNB",
+        "friendly_name": "3 / Williams / Hwy 5 at Williams NB",
     },
-    "3 / Williams / Hwy 5 at Williams SB": {
+    "3-Williams-Hwy5atWilliamsSB": {
         "longitude": "-122.15929",
         "latitude": "39.17793",
         "stream": "/D3/5_Williams_COL5_SB.stream",
+        "simple_name": "3-Williams-Hwy5atWilliamsSB",
+        "friendly_name": "3 / Williams / Hwy 5 at Williams SB",
     },
-    "3 / Elk Grove / Hwy 5 at Twin Cities": {
+    "3-ElkGrove-Hwy5atTwinCities": {
         "longitude": "-121.45575",
         "latitude": "38.27609",
         "stream": "/D3/5_Twin_Cities_Rd_JSO_SAC5_NB.stream",
+        "simple_name": "3-ElkGrove-Hwy5atTwinCities",
+        "friendly_name": "3 / Elk Grove / Hwy 5 at Twin Cities",
     },
-    "3 / Sacramento / Hwy 5 at 25th": {
+    "3-Sacramento-Hwy5at25th": {
         "longitude": "-121.51749",
         "latitude": "38.53381",
         "stream": "/D3/5_25th_Ave_SAC5_SB.stream",
+        "simple_name": "3-Sacramento-Hwy5at25th",
+        "friendly_name": "3 / Sacramento / Hwy 5 at 25th",
     },
-    "3 / Sacramento / Hwy 5 at W El Camino": {
+    "3-Sacramento-Hwy5atWElCamino": {
         "longitude": "-121.51238",
         "latitude": "38.61488",
         "stream": "/D3/5_W_El_Camino_OC_SAC5_SB.stream",
+        "simple_name": "3-Sacramento-Hwy5atWElCamino",
+        "friendly_name": "3 / Sacramento / Hwy 5 at W El Camino",
     },
-    "3 / North Highlands / Hwy 80 at Watt": {
+    "3-NorthHighlands-Hwy80atWatt": {
         "longitude": "-121.38327",
         "latitude": "38.64602",
         "stream": "/D3/80_Watt_Ave_OC_SAC80_WB.stream",
+        "simple_name": "3-NorthHighlands-Hwy80atWatt",
+        "friendly_name": "3 / North Highlands / Hwy 80 at Watt",
     },
-    "3 / Tahoe City / Hwy 89 at Alpine Meadows": {
+    "3-TahoeCity-Hwy89atAlpineMeadows": {
         "longitude": "-120.19489",
         "latitude": "39.18724",
         "stream": "/D3/89_Alpine_Meadows_PLA89_NB.stream",
+        "simple_name": "3-TahoeCity-Hwy89atAlpineMeadows",
+        "friendly_name": "3 / Tahoe City / Hwy 89 at Alpine Meadows",
     },
-    "3 / Sacramento / Hwy 5 at Cosumnes": {
+    "3-Sacramento-Hwy5atCosumnes": {
         "longitude": "-121.49646",
         "latitude": "38.46643",
         "stream": "/D3/5_Cosumnes_River_Blvd_OC_SAC5_NB.stream",
+        "simple_name": "3-Sacramento-Hwy5atCosumnes",
+        "friendly_name": "3 / Sacramento / Hwy 5 at Cosumnes",
     },
-    "3 / Elk Grove / Hwy 5 at Elk Grove": {
+    "3-ElkGrove-Hwy5atElkGrove": {
         "longitude": "-121.48425",
         "latitude": "38.41336",
         "stream": "/D3/5_Elk_Grove_OC_SAC5_NB.stream",
+        "simple_name": "3-ElkGrove-Hwy5atElkGrove",
+        "friendly_name": "3 / Elk Grove / Hwy 5 at Elk Grove",
     },
-    "3 / Lincoln / Hwy 65 - Riosa": {
+    "3-Lincoln-Hwy65-Riosa": {
         "longitude": "-121.38221",
         "latitude": "38.97877",
         "stream": "/D3/65_Riosa_Rd_PLA65_NB.stream",
+        "simple_name": "3-Lincoln-Hwy65-Riosa",
+        "friendly_name": "3 / Lincoln / Hwy 65 - Riosa",
     },
-    "3 / Truckee / Hwy 267 at Truckee Bypass": {
+    "3-Truckee-Hwy267atTruckeeBypass": {
         "longitude": "-120.16323",
         "latitude": "39.33429",
         "stream": "/D3/267_Truckee_Bypass_NEV267_WB.stream",
+        "simple_name": "3-Truckee-Hwy267atTruckeeBypass",
+        "friendly_name": "3 / Truckee / Hwy 267 at Truckee Bypass",
     },
-    "3 / Tahoe City / Hwy 28 at Dollar": {
+    "3-TahoeCity-Hwy28atDollar": {
         "longitude": "-120.10347",
         "latitude": "39.19375",
         "stream": "/D3/28_Dollar_Point_PLA28_WB.stream",
+        "simple_name": "3-TahoeCity-Hwy28atDollar",
+        "friendly_name": "3 / Tahoe City / Hwy 28 at Dollar",
     },
-    "3 / El Dorado Hills / Hwy 50 at El Dorado ED50 WB 1": {
+    "3-ElDoradoHills-Hwy50atElDoradoED50WB1": {
         "longitude": "-121.07222",
         "latitude": "38.65268",
         "stream": "/D3/50_El_Dorado_Hills_ED50_WB_1.stream",
+        "simple_name": "3-ElDoradoHills-Hwy50atElDoradoED50WB1",
+        "friendly_name": "3 / El Dorado Hills / Hwy 50 at El Dorado ED50 WB 1",
     },
-    "3 / Marysville / Hwy 70 at Feather River": {
+    "3-Marysville-Hwy70atFeatherRiver": {
         "longitude": "-121.57217",
         "latitude": "39.12163",
         "stream": "/D3/70_Feather_River_Blvd_JSO_YUB70_NB.stream",
+        "simple_name": "3-Marysville-Hwy70atFeatherRiver",
+        "friendly_name": "3 / Marysville / Hwy 70 at Feather River",
     },
-    "3 / Nicolaus / Hwy 99 at Riego NB": {
+    "3-Nicolaus-Hwy99atRiegoNB": {
         "longitude": "-121.54006",
         "latitude": "38.74828",
         "stream": "/D3/99_W_Riego_Rd_OC_SUT99_NB.stream",
+        "simple_name": "3-Nicolaus-Hwy99atRiegoNB",
+        "friendly_name": "3 / Nicolaus / Hwy 99 at Riego NB",
     },
-    "3 / Yuba City / Hwy 99 at Lincoln": {
+    "3-YubaCity-Hwy99atLincoln": {
         "longitude": "-121.63447",
         "latitude": "39.11258",
         "stream": "/D3/99_Lincoln_Rd_SUT99_NB.stream",
+        "simple_name": "3-YubaCity-Hwy99atLincoln",
+        "friendly_name": "3 / Yuba City / Hwy 99 at Lincoln",
     },
-    "3 / Yuba City / Hwy 99 at Bridge": {
+    "3-YubaCity-Hwy99atBridge": {
         "longitude": "-121.63484",
         "latitude": "39.13255",
         "stream": "/D3/99_Bridge_St_BUT99_NB.stream",
+        "simple_name": "3-YubaCity-Hwy99atBridge",
+        "friendly_name": "3 / Yuba City / Hwy 99 at Bridge",
     },
-    "3 / Yuba City / Hwy 99 at Route 20": {
+    "3-YubaCity-Hwy99atRoute20": {
         "longitude": "-121.63486",
         "latitude": "39.14213",
         "stream": "/D3/99_JCT20_SUT99_SB.stream",
+        "simple_name": "3-YubaCity-Hwy99atRoute20",
+        "friendly_name": "3 / Yuba City / Hwy 99 at Route 20",
     },
-    "3 / Durham / Hwy 99 at Neal": {
+    "3-Durham-Hwy99atNeal": {
         "longitude": "-121.74011",
         "latitude": "39.6622",
         "stream": "/D3/99_Neal_Rd_JSO_BUT99_SB.stream",
+        "simple_name": "3-Durham-Hwy99atNeal",
+        "friendly_name": "3 / Durham / Hwy 99 at Neal",
     },
-    "3 / Sacramento / Hwy 51 at H St": {
+    "3-Sacramento-Hwy51atHSt": {
         "longitude": "-121.46668",
         "latitude": "38.57546",
         "stream": "/D3/51_H_St_SAC51_SB.stream",
+        "simple_name": "3-Sacramento-Hwy51atHSt",
+        "friendly_name": "3 / Sacramento / Hwy 51 at H St",
     },
-    "3 / Sacramento / Hwy 99 at 14th Ave": {
+    "3-Sacramento-Hwy99at14thAve": {
         "longitude": "-121.47444",
         "latitude": "38.53909",
         "stream": "/D3/99_14th_Ave_SAC99_SB.stream",
+        "simple_name": "3-Sacramento-Hwy99at14thAve",
+        "friendly_name": "3 / Sacramento / Hwy 99 at 14th Ave",
     },
-    "3 / Sacramento / Hwy 99 at Martin Luther King": {
+    "3-Sacramento-Hwy99atMartinLutherKing": {
         "longitude": "-121.46579",
         "latitude": "38.51943",
         "stream": "/D3/99_Martin_Luther_King_SAC99_SB.stream",
+        "simple_name": "3-Sacramento-Hwy99atMartinLutherKing",
+        "friendly_name": "3 / Sacramento / Hwy 99 at Martin Luther King",
     },
-    "3 / West Sacramento / Hwy 80 at Enterprise": {
+    "3-WestSacramento-Hwy80atEnterprise": {
         "longitude": "-121.57876",
         "latitude": "38.57368",
         "stream": "/D3/80_Enterprise_Blvd_UC_YOL80_EB.stream",
+        "simple_name": "3-WestSacramento-Hwy80atEnterprise",
+        "friendly_name": "3 / West Sacramento / Hwy 80 at Enterprise",
     },
-    "3 / West Sacramento / Hwy 80 at Reed": {
+    "3-WestSacramento-Hwy80atReed": {
         "longitude": "-121.55276",
         "latitude": "38.59053",
         "stream": "/D3/80_Reed_Ave_UC_YOL80_EB.stream",
+        "simple_name": "3-WestSacramento-Hwy80atReed",
+        "friendly_name": "3 / West Sacramento / Hwy 80 at Reed",
     },
-    "3 / Tahoe City / Hwy 89 at Fairway Dr": {
+    "3-TahoeCity-Hwy89atFairwayDr": {
         "longitude": "-120.1498",
         "latitude": "39.164",
         "stream": "/D3/89_Fairway_Dr_JWO_PLA89_NB.stream",
+        "simple_name": "3-TahoeCity-Hwy89atFairwayDr",
+        "friendly_name": "3 / Tahoe City / Hwy 89 at Fairway Dr",
     },
-    "3 / Tahoe City / Hwy 89 at Granlibakken": {
+    "3-TahoeCity-Hwy89atGranlibakken": {
         "longitude": "-120.1447",
         "latitude": "39.16170",
         "stream": "/D3/89_Granlibakken_Rd_JNO_PLA89_NB.stream",
+        "simple_name": "3-TahoeCity-Hwy89atGranlibakken",
+        "friendly_name": "3 / Tahoe City / Hwy 89 at Granlibakken",
     },
-    "3 / Winters / Hwy 128 at Main St (Winters)": {
+    "3-Winters-Hwy128atMainSt(Winters)": {
         "longitude": "-121.98216",
         "latitude": "38.52104",
         "stream": "/D3/128_Main_St_JWO_YOL128_WB.stream",
+        "simple_name": "3-Winters-Hwy128atMainSt(Winters)",
+        "friendly_name": "3 / Winters / Hwy 128 at Main St (Winters)",
     },
-    "3 / Sacramento / Hwy 50 at 24th": {
+    "3-Sacramento-Hwy50at24th": {
         "longitude": "-121.48064",
         "latitude": "38.56073",
         "stream": "/D3/50_24th_St_SAC50_WB.stream",
+        "simple_name": "3-Sacramento-Hwy50at24th",
+        "friendly_name": "3 / Sacramento / Hwy 50 at 24th",
     },
-    "3 / Rio Vista / Hwy 12 at Rio Vista Bridge East": {
+    "3-RioVista-Hwy12atRioVistaBridgeEast": {
         "longitude": "-121.67937",
         "latitude": "38.15654",
         "stream": "/D3/12_Rio_Vista_Bridge_SAC12_EB.stream",
+        "simple_name": "3-RioVista-Hwy12atRioVistaBridgeEast",
+        "friendly_name": "3 / Rio Vista / Hwy 12 at Rio Vista Bridge East",
     },
-    "3 / Diamond Springs / Hwy 49 at Pleasant Valley": {
+    "3-DiamondSprings-Hwy49atPleasantValley": {
         "longitude": "-120.813169",
         "latitude": "38.695034",
         "stream": "/D3/49_Pleasant_Valley_ED49_NB.stream",
+        "simple_name": "3-DiamondSprings-Hwy49atPleasantValley",
+        "friendly_name": "3 / Diamond Springs / Hwy 49 at Pleasant Valley",
     },
-    "3 / Rio Vista / Hwy 160 at Sherman Island Rd": {
+    "3-RioVista-Hwy160atShermanIslandRd": {
         "longitude": "-121.732872",
         "latitude": "38.077950",
         "stream": "/D3/160_W_Sherman_Island_Rd_JSO_SAC160_NB.stream",
+        "simple_name": "3-RioVista-Hwy160atShermanIslandRd",
+        "friendly_name": "3 / Rio Vista / Hwy 160 at Sherman Island Rd",
     },
-    "3 / Placerville / Hwy 50 at Canal St": {
+    "3-Placerville-Hwy50atCanalSt": {
         "longitude": "-120.80793839044719",
         "latitude": "38.728448363651644",
         "stream": "/D3/50_Canal_St_JWO_ED50_WB.stream",
+        "simple_name": "3-Placerville-Hwy50atCanalSt",
+        "friendly_name": "3 / Placerville / Hwy 50 at Canal St",
     },
-    "3 / Placerville / Hwy 50 at Bedford": {
+    "3-Placerville-Hwy50atBedford": {
         "longitude": "-120.79934",
         "latitude": "38.73059",
         "stream": "/D3/50_Bedford_Ave_ED50_WB.stream",
+        "simple_name": "3-Placerville-Hwy50atBedford",
+        "friendly_name": "3 / Placerville / Hwy 50 at Bedford",
     },
-    "3 / El Dorado Hills / Hwy 50 at Silva_Valley_ED50_WB": {
+    "3-ElDoradoHills-Hwy50atSilva_Valley_ED50_WB": {
         "longitude": "-121.05564",
         "latitude": "38.65829",
         "stream": "/D3/50_Silva_Valley_ED50_WB.stream",
+        "simple_name": "3-ElDoradoHills-Hwy50atSilva_Valley_ED50_WB",
+        "friendly_name": "3 / El Dorado Hills / Hwy 50 at Silva_Valley_ED50_WB",
     },
-    "3 / Truckee / Hwy 80 at Truckee Scales WB": {
+    "3-Truckee-Hwy80atTruckeeScalesWB": {
         "longitude": "-120.12443",
         "latitude": "39.36354",
         "stream": "/D3/80_Truckee_Scales_JEO_NEV80_WB.stream",
+        "simple_name": "3-Truckee-Hwy80atTruckeeScalesWB",
+        "friendly_name": "3 / Truckee / Hwy 80 at Truckee Scales WB",
     },
-    "3 / Placerville / Hwy 50 at Missouri Flat 1": {
+    "3-Placerville-Hwy50atMissouriFlat1": {
         "longitude": "-120.83915",
         "latitude": "38.71102",
         "stream": "/D3/50_Missouri_Flat_OC_ED50_EB_1.stream",
+        "simple_name": "3-Placerville-Hwy50atMissouriFlat1",
+        "friendly_name": "3 / Placerville / Hwy 50 at Missouri Flat 1",
     },
-    "3 / Placerville / Hwy 50 at Missouri Flat 2": {
+    "3-Placerville-Hwy50atMissouriFlat2": {
         "longitude": "-120.839178",
         "latitude": "38.711022",
         "stream": "/D3/50_Missouri_Flat_OC_ED50_EB_2.stream",
+        "simple_name": "3-Placerville-Hwy50atMissouriFlat2",
+        "friendly_name": "3 / Placerville / Hwy 50 at Missouri Flat 2",
     },
-    "3 / Shingle Springs / Hwy 50 at Ponderosa 2": {
+    "3-ShingleSprings-Hwy50atPonderosa2": {
         "longitude": "-120.93578",
         "latitude": "38.66352",
         "stream": "/D3/50_Ponderosa_Rd_ED50_WB_2.stream",
+        "simple_name": "3-ShingleSprings-Hwy50atPonderosa2",
+        "friendly_name": "3 / Shingle Springs / Hwy 50 at Ponderosa 2",
     },
-    "3 / Shingle Springs / Hwy 50 at Ponderosa 1": {
+    "3-ShingleSprings-Hwy50atPonderosa1": {
         "longitude": "-120.93579",
         "latitude": "38.66352",
         "stream": "/D3/50_Ponderosa_Rd_ED50_WB_1.stream",
+        "simple_name": "3-ShingleSprings-Hwy50atPonderosa1",
+        "friendly_name": "3 / Shingle Springs / Hwy 50 at Ponderosa 1",
     },
-    "3 / Chico / Hwy 99 at Southgate 1": {
+    "3-Chico-Hwy99atSouthgate1": {
         "longitude": "-121.785848",
         "latitude": "39.701535",
         "stream": "/D3/99_Southgate_Ln_BUT99_NB_1.stream",
+        "simple_name": "3-Chico-Hwy99atSouthgate1",
+        "friendly_name": "3 / Chico / Hwy 99 at Southgate 1",
     },
-    "3 / Chico / Hwy 99 at Southgate 2": {
+    "3-Chico-Hwy99atSouthgate2": {
         "longitude": "-121.785848",
         "latitude": "39.701535",
         "stream": "/D3/99_Southgate_Ln_BUT99_NB_2.stream",
+        "simple_name": "3-Chico-Hwy99atSouthgate2",
+        "friendly_name": "3 / Chico / Hwy 99 at Southgate 2",
     },
-    "3 / Chico / Hwy 99 at Skyway 1": {
+    "3-Chico-Hwy99atSkyway1": {
         "longitude": "-121.800321",
         "latitude": "39.715094",
         "stream": "/D3/99_Skyway_BUT99_NB_1.stream",
+        "simple_name": "3-Chico-Hwy99atSkyway1",
+        "friendly_name": "3 / Chico / Hwy 99 at Skyway 1",
     },
-    "3 / Chico / Hwy 99 at Skyway 2": {
+    "3-Chico-Hwy99atSkyway2": {
         "longitude": "-121.800321",
         "latitude": "39.715094",
         "stream": "/D3/99_Skyway_BUT99_NB_2.stream",
+        "simple_name": "3-Chico-Hwy99atSkyway2",
+        "friendly_name": "3 / Chico / Hwy 99 at Skyway 2",
     },
-    "3 / Chico / Skyway_BUT99_NB_2": {
+    "3-Chico-Skyway_BUT99_NB_2": {
         "longitude": "-121.792755",
         "latitude": "39.707638",
         "stream": "/D3/99_Skyway_JSO_BUT99_NB_2.stream",
+        "simple_name": "3-Chico-Skyway_BUT99_NB_2",
+        "friendly_name": "3 / Chico / Skyway_BUT99_NB_2",
     },
-    "3 / Chico / East_20th_BUT99_NB_1": {
+    "3-Chico-East_20th_BUT99_NB_1": {
         "longitude": "-121.809163",
         "latitude": "39.726408",
         "stream": "/D3/99_East_20th_BUT99_NB_1.stream",
+        "simple_name": "3-Chico-East_20th_BUT99_NB_1",
+        "friendly_name": "3 / Chico / East_20th_BUT99_NB_1",
     },
-    "3 / Chico / East_20th_BUT99_NB_2": {
+    "3-Chico-East_20th_BUT99_NB_2": {
         "longitude": "-121.809163",
         "latitude": "39.726408",
         "stream": "/D3/99_East_20th_BUT99_NB_2.stream",
+        "simple_name": "3-Chico-East_20th_BUT99_NB_2",
+        "friendly_name": "3 / Chico / East_20th_BUT99_NB_2",
     },
-    "3 / Chico / Skyway_BUT99_NB_1": {
+    "3-Chico-Skyway_BUT99_NB_1": {
         "longitude": "-121.792755",
         "latitude": "39.707638",
         "stream": "/D3/99_Skyway_JSO_BUT99_NB_1.stream",
+        "simple_name": "3-Chico-Skyway_BUT99_NB_1",
+        "friendly_name": "3 / Chico / Skyway_BUT99_NB_1",
     },
-    "3 / Chico / Hwy 99 at Hwy 32 1": {
+    "3-Chico-Hwy99atHwy321": {
         "longitude": "-121.820189",
         "latitude": "39.737174",
         "stream": "/D3/99_JCT32_UC_BUT99_NB_1.stream",
+        "simple_name": "3-Chico-Hwy99atHwy321",
+        "friendly_name": "3 / Chico / Hwy 99 at Hwy 32 1",
     },
-    "3 / Chico / Hwy 99 at Hwy 32 2": {
+    "3-Chico-Hwy99atHwy322": {
         "longitude": "-121.820189",
         "latitude": "39.737174",
         "stream": "/D3/99_JCT32_UC_BUT99_NB_2.stream",
+        "simple_name": "3-Chico-Hwy99atHwy322",
+        "friendly_name": "3 / Chico / Hwy 99 at Hwy 32 2",
     },
-    "3 / El Dorado Hills / Bass_Lake_ED50_WB": {
+    "3-ElDoradoHills-Bass_Lake_ED50_WB": {
         "longitude": "-121.0340789",
         "latitude": "38.6553657",
         "stream": "/D3/50_Bass_Lake_Rd_ED50_WB.stream",
+        "simple_name": "3-ElDoradoHills-Bass_Lake_ED50_WB",
+        "friendly_name": "3 / El Dorado Hills / Bass_Lake_ED50_WB",
     },
-    "3 / Camino / Snow_ED50_EB_1": {
+    "3-Camino-Snow_ED50_EB_1": {
         "longitude": "-120.67619",
         "latitude": "38.734511",
         "stream": "/D3/50_Snows_Rd_ED50_EB_1.stream",
+        "simple_name": "3-Camino-Snow_ED50_EB_1",
+        "friendly_name": "3 / Camino / Snow_ED50_EB_1",
     },
-    "3 / Camino / Snow_ED50_EB_2": {
+    "3-Camino-Snow_ED50_EB_2": {
         "longitude": "-120.6761900",
         "latitude": "38.7345110",
         "stream": "/D3/50_Snows_Rd_ED50_EB_2.stream",
+        "simple_name": "3-Camino-Snow_ED50_EB_2",
+        "friendly_name": "3 / Camino / Snow_ED50_EB_2",
     },
-    "3 / Pollock Pines / Sly_Park_ED50_EB_1": {
+    "3-PollockPines-Sly_Park_ED50_EB_1": {
         "longitude": "-120.591929",
         "latitude": "38.756014",
         "stream": "/D3/50_Sly_Park_ED50_EB_1.stream",
+        "simple_name": "3-PollockPines-Sly_Park_ED50_EB_1",
+        "friendly_name": "3 / Pollock Pines / Sly_Park_ED50_EB_1",
     },
-    "3 / Pollock Pines / Sly_Park_ED50_EB_2": {
+    "3-PollockPines-Sly_Park_ED50_EB_2": {
         "longitude": "-120.591929",
         "latitude": "38.756014",
         "stream": "/D3/50_Sly_Park_ED50_EB_2.stream",
+        "simple_name": "3-PollockPines-Sly_Park_ED50_EB_2",
+        "friendly_name": "3 / Pollock Pines / Sly_Park_ED50_EB_2",
     },
-    "3 / South Lake Tahoe / Pioneer_Trail_ED50_EB_1": {
+    "3-SouthLakeTahoe-Pioneer_Trail_ED50_EB_1": {
         "longitude": "-120.0118354",
         "latitude": "38.85815257",
         "stream": "/D3/50_Pioneer_Trail_ED50_EB_1.stream",
+        "simple_name": "3-SouthLakeTahoe-Pioneer_Trail_ED50_EB_1",
+        "friendly_name": "3 / South Lake Tahoe / Pioneer_Trail_ED50_EB_1",
     },
-    "3 / Placerville / Placerville_ED50_EB_1": {
+    "3-Placerville-Placerville_ED50_EB_1": {
         "longitude": "-120.816119",
         "latitude": "38.730391",
         "stream": "/D3/50_Placerville_ED50_EB_1.stream",
+        "simple_name": "3-Placerville-Placerville_ED50_EB_1",
+        "friendly_name": "3 / Placerville / Placerville_ED50_EB_1",
     },
-    "3 / Placerville / Placerville_ED50_EB_2": {
+    "3-Placerville-Placerville_ED50_EB_2": {
         "longitude": "-120.816119",
         "latitude": "38.730391",
         "stream": "/D3/50_Placerville_ED50_EB_2.stream",
+        "simple_name": "3-Placerville-Placerville_ED50_EB_2",
+        "friendly_name": "3 / Placerville / Placerville_ED50_EB_2",
     },
-    "3 / South Lake Tahoe / Pioneer_Trail_ED50_EB_2": {
+    "3-SouthLakeTahoe-Pioneer_Trail_ED50_EB_2": {
         "longitude": "-120.0118354",
         "latitude": "38.85815257",
         "stream": "/D3/50_Pioneer_Trail_ED50_EB_2.stream",
+        "simple_name": "3-SouthLakeTahoe-Pioneer_Trail_ED50_EB_2",
+        "friendly_name": "3 / South Lake Tahoe / Pioneer_Trail_ED50_EB_2",
     },
-    "3 / Placerville / Forni_ED50_WB_1": {
+    "3-Placerville-Forni_ED50_WB_1": {
         "longitude": "-120.833990",
         "latitude": "38.721336",
         "stream": "/D3/50_Forni_Rd_ED50_WB_1.stream.stream",
+        "simple_name": "3-Placerville-Forni_ED50_WB_1",
+        "friendly_name": "3 / Placerville / Forni_ED50_WB_1",
     },
-    "3 / Placerville / Forni_ED50_WB_2": {
+    "3-Placerville-Forni_ED50_WB_2": {
         "longitude": "-120.833990",
         "latitude": "38.721336",
         "stream": "/D3/50_Forni_Rd_ED50_WB_2.stream.stream",
+        "simple_name": "3-Placerville-Forni_ED50_WB_2",
+        "friendly_name": "3 / Placerville / Forni_ED50_WB_2",
     },
-    "3 / Elk Grove / Hwy 99 at Eschinger": {
+    "3-ElkGrove-Hwy99atEschinger": {
         "longitude": "-121.347407",
         "latitude": "38.362331",
         "stream": "/D3/99_Eschinger_Rd_SAC99_SB_1.stream",
+        "simple_name": "3-ElkGrove-Hwy99atEschinger",
+        "friendly_name": "3 / Elk Grove / Hwy 99 at Eschinger",
     },
-    "3 / Chico / Hwy 99 at East_Ave_BUT99_SB_1": {
+    "3-Chico-Hwy99atEast_Ave_BUT99_SB_1": {
         "longitude": "-121.855315",
         "latitude": "39.759699",
         "stream": "/D3/99_East_Ave_BUT99_SB_1.stream",
+        "simple_name": "3-Chico-Hwy99atEast_Ave_BUT99_SB_1",
+        "friendly_name": "3 / Chico / Hwy 99 at East_Ave_BUT99_SB_1",
     },
-    "3 / Chico / Hwy 99 at East_Ave_BUT99_SB_2": {
+    "3-Chico-Hwy99atEast_Ave_BUT99_SB_2": {
         "longitude": "-121.855315",
         "latitude": "39.759699",
         "stream": "/D3/99_East_Ave_BUT99_SB_2.stream",
+        "simple_name": "3-Chico-Hwy99atEast_Ave_BUT99_SB_2",
+        "friendly_name": "3 / Chico / Hwy 99 at East_Ave_BUT99_SB_2",
     },
-    "3 / Chico / Hwy 99 at Garner Lane 1": {
+    "3-Chico-Hwy99atGarnerLane1": {
         "longitude": "-121.890929",
         "latitude": "39.789467",
         "stream": "/D3/99_Garner_Ln_BUT99_SB_1.stream",
+        "simple_name": "3-Chico-Hwy99atGarnerLane1",
+        "friendly_name": "3 / Chico / Hwy 99 at Garner Lane 1",
     },
-    "3 / Chico / Hwy 99 at Garner Lane 2": {
+    "3-Chico-Hwy99atGarnerLane2": {
         "longitude": "-121.890929",
         "latitude": "39.789467",
         "stream": "/D3/99_Garner_Ln_BUT99_SB_2.stream",
+        "simple_name": "3-Chico-Hwy99atGarnerLane2",
+        "friendly_name": "3 / Chico / Hwy 99 at Garner Lane 2",
     },
-    "3 / Pollock Pines / Hwy 50 at Ice House": {
+    "3-PollockPines-Hwy50atIceHouse": {
         "longitude": "-120.446648",
         "latitude": "38.768721",
         "stream": "/D3/50_Ice_House_Rd_JEO_ED50_EB.stream",
+        "simple_name": "3-PollockPines-Hwy50atIceHouse",
+        "friendly_name": "3 / Pollock Pines / Hwy 50 at Ice House",
     },
-    "3 / Pollock Pines / Hwy 50 at Riverton Sandhouse": {
+    "3-PollockPines-Hwy50atRivertonSandhouse": {
         "longitude": "-120.47105",
         "latitude": "38.77383",
         "stream": "/D3/50_Riverton_Sandhouse_ED50_EB.stream",
+        "simple_name": "3-PollockPines-Hwy50atRivertonSandhouse",
+        "friendly_name": "3 / Pollock Pines / Hwy 50 at Riverton Sandhouse",
     },
-    "3 / Greenstone Rd / Hwy 50 at Greenstone 1": {
+    "3-GreenstoneRd-Hwy50atGreenstone1": {
         "longitude": "-120.884516",
         "latitude": "38.695782",
         "stream": "/D3/50_Greenstone_Rd_JEO_ED50_EB_1.stream",
+        "simple_name": "3-GreenstoneRd-Hwy50atGreenstone1",
+        "friendly_name": "3 / Greenstone Rd / Hwy 50 at Greenstone 1",
     },
-    "3 / Greenstone Rd / Hwy 50 at Greenstone 2": {
+    "3-GreenstoneRd-Hwy50atGreenstone2": {
         "longitude": "-120.884516",
         "latitude": "38.695782",
         "stream": "/D3/50_Greenstone_Rd_JEO_ED50_EB_2.stream",
+        "simple_name": "3-GreenstoneRd-Hwy50atGreenstone2",
+        "friendly_name": "3 / Greenstone Rd / Hwy 50 at Greenstone 2",
     },
-    "3 / Cameron Park Dr / Hwy 50 at Cameron_Park_ED50_WB_1": {
+    "3-CameronParkDr-Hwy50atCameron_Park_ED50_WB_1": {
         "longitude": "-120.969424",
         "latitude": "38.6596759",
         "stream": "/D3/50_Cameron_Park_Dr_UC_ED50_WB_1.stream",
+        "simple_name": "3-CameronParkDr-Hwy50atCameron_Park_ED50_WB_1",
+        "friendly_name": "3 / Cameron Park Dr / Hwy 50 at Cameron_Park_ED50_WB_1",
     },
-    "3 / Cameron Park Dr / Hwy 50 at Cameron_Park_ED50_WB_2": {
+    "3-CameronParkDr-Hwy50atCameron_Park_ED50_WB_2": {
         "longitude": "-120.969424",
         "latitude": "38.6596759",
         "stream": "/D3/50_Cameron_Park_Dr_UC_ED50_WB_2.stream",
+        "simple_name": "3-CameronParkDr-Hwy50atCameron_Park_ED50_WB_2",
+        "friendly_name": "3 / Cameron Park Dr / Hwy 50 at Cameron_Park_ED50_WB_2",
     },
-    "3 / El Dorado Hills / Hwy 50 at El Dorado ED50 WB 2": {
+    "3-ElDoradoHills-Hwy50atElDoradoED50WB2": {
         "longitude": "-121.0721",
         "latitude": "38.6527",
         "stream": "/D3/50_El_Dorado_Hills_ED50_WB_2.stream",
+        "simple_name": "3-ElDoradoHills-Hwy50atElDoradoED50WB2",
+        "friendly_name": "3 / El Dorado Hills / Hwy 50 at El Dorado ED50 WB 2",
     },
-    "3 / Folsom / Hwy 50 at E_Bidwell_St_SAC50_WB_1": {
+    "3-Folsom-Hwy50atE_Bidwell_St_SAC50_WB_1": {
         "longitude": "-121.1141451",
         "latitude": "38.643686",
         "stream": "/D3/50_E_Bidwell_St_SAC50_WB_1.stream",
+        "simple_name": "3-Folsom-Hwy50atE_Bidwell_St_SAC50_WB_1",
+        "friendly_name": "3 / Folsom / Hwy 50 at E_Bidwell_St_SAC50_WB_1",
     },
-    "3 / Folsom / Hwy 50 at E_Bidwell_St_SAC50_WB_2": {
+    "3-Folsom-Hwy50atE_Bidwell_St_SAC50_WB_2": {
         "longitude": "-121.1141451",
         "latitude": "38.643676",
         "stream": "/D3/50_E_Bidwell_St_SAC50_WB_2.stream",
+        "simple_name": "3-Folsom-Hwy50atE_Bidwell_St_SAC50_WB_2",
+        "friendly_name": "3 / Folsom / Hwy 50 at E_Bidwell_St_SAC50_WB_2",
     },
-    "3 / Folsom / Hwy 50 at Prairie City": {
+    "3-Folsom-Hwy50atPrairieCity": {
         "longitude": "-121.1557241",
         "latitude": "38.642402",
         "stream": "/D3/50_Prairie_City_Rd_SAC50_WB.stream",
+        "simple_name": "3-Folsom-Hwy50atPrairieCity",
+        "friendly_name": "3 / Folsom / Hwy 50 at Prairie City",
     },
-    "3 / Folsom / Hwy 50 at Folsom_Blvd_SAC50_WB_1": {
+    "3-Folsom-Hwy50atFolsom_Blvd_SAC50_WB_1": {
         "longitude": "-121.196928",
         "latitude": "38.640212",
         "stream": "/D3/50_Folsom_Blvd_SAC50_WB_1.stream",
+        "simple_name": "3-Folsom-Hwy50atFolsom_Blvd_SAC50_WB_1",
+        "friendly_name": "3 / Folsom / Hwy 50 at Folsom_Blvd_SAC50_WB_1",
     },
-    "3 / Rancho Cordova / Hwy 50 at Hazel OC JEO WB 1": {
+    "3-RanchoCordova-Hwy50atHazelOCJEOWB1": {
         "longitude": "-121.216651",
         "latitude": "38.631541",
         "stream": "/D3/50_Hazel_Ave_OC_JEO_SAC50_WB_1.stream",
+        "simple_name": "3-RanchoCordova-Hwy50atHazelOCJEOWB1",
+        "friendly_name": "3 / Rancho Cordova / Hwy 50 at Hazel OC JEO WB 1",
     },
-    "3 / Rancho Cordova / Hwy 50 at Hazel OC JEO WB 2": {
+    "3-RanchoCordova-Hwy50atHazelOCJEOWB2": {
         "longitude": "-121.216611",
         "latitude": "38.631531",
         "stream": "/D3/50_Hazel_Ave_OC_JEO_SAC50_WB_2.stream",
+        "simple_name": "3-RanchoCordova-Hwy50atHazelOCJEOWB2",
+        "friendly_name": "3 / Rancho Cordova / Hwy 50 at Hazel OC JEO WB 2",
     },
-    "3 / El Dorado Hills / Hwy 50 at El Dorado ED50 WB 3": {
+    "3-ElDoradoHills-Hwy50atElDoradoED50WB3": {
         "longitude": "-121.0720351",
         "latitude": "38.652741",
         "stream": "/D3/50_El_Dorado_Hills_ED50_WB_3.stream",
+        "simple_name": "3-ElDoradoHills-Hwy50atElDoradoED50WB3",
+        "friendly_name": "3 / El Dorado Hills / Hwy 50 at El Dorado ED50 WB 3",
     },
-    "3 / Grass Valley / Hwy 20 at Dorsey Dr": {
+    "3-GrassValley-Hwy20atDorseyDr": {
         "longitude": "-121.0427792",
         "latitude": "39.2292271",
         "stream": "/D3/20_Dorsey_Dr_NEV20_NB.stream",
+        "simple_name": "3-GrassValley-Hwy20atDorseyDr",
+        "friendly_name": "3 / Grass Valley / Hwy 20 at Dorsey Dr",
     },
-    "3 / Oroville / Hwy 70 at Gridley Rd": {
+    "3-Oroville-Hwy70atGridleyRd": {
         "longitude": "-121.61262643307546",
         "latitude": "39.37603606875519",
         "stream": "/D3/70_Gridley_Rd_JNO_BUT70_WB.stream",
+        "simple_name": "3-Oroville-Hwy70atGridleyRd",
+        "friendly_name": "3 / Oroville / Hwy 70 at Gridley Rd",
     },
-    "3 / Chico /  Hwy 99 at E Eaton Rd 1": {
+    "3-Chico-Hwy99atEEatonRd1": {
         "longitude": "-121.881511",
         "latitude": "39.780785",
         "stream": "/D3/99_E_Eaton_Rd_JNO_BUT99_SB_1.stream",
+        "simple_name": "3-Chico-Hwy99atEEatonRd1",
+        "friendly_name": "3 / Chico /  Hwy 99 at E Eaton Rd 1",
     },
-    "3 / Chico /  Hwy 99 at E Eaton Rd 2": {
+    "3-Chico-Hwy99atEEatonRd2": {
         "longitude": "-121.881511",
         "latitude": "39.780785",
         "stream": "/D3/99_E_Eaton_Rd_JNO_BUT99_SB_2.stream",
+        "simple_name": "3-Chico-Hwy99atEEatonRd2",
+        "friendly_name": "3 / Chico /  Hwy 99 at E Eaton Rd 2",
     },
-    "3 / Folsom / Hwy 50 at Folsom_Blvd_SAC50_WB_2": {
+    "3-Folsom-Hwy50atFolsom_Blvd_SAC50_WB_2": {
         "longitude": "-121.1968",
         "latitude": "38.64",
         "stream": "/D3/50_Folsom_Blvd_SAC50_WB_2.stream",
+        "simple_name": "3-Folsom-Hwy50atFolsom_Blvd_SAC50_WB_2",
+        "friendly_name": "3 / Folsom / Hwy 50 at Folsom_Blvd_SAC50_WB_2",
     },
-    "3 / Sacramento / Hwy 99 at Hwy 5 1": {
+    "3-Sacramento-Hwy99atHwy51": {
         "longitude": "-121.54035608100833",
         "latitude": "38.671021779452666",
         "stream": "/D3/99_JCT5_SAC99_SB_1.stream",
+        "simple_name": "3-Sacramento-Hwy99atHwy51",
+        "friendly_name": "3 / Sacramento / Hwy 99 at Hwy 5 1",
     },
-    "3 / Sacramento / Hwy 99 at Hwy 5 2": {
+    "3-Sacramento-Hwy99atHwy52": {
         "longitude": "-121.54035608100833",
         "latitude": "38.671021779452666",
         "stream": "/D3/99_JCT5_SAC99_SB_2.stream",
+        "simple_name": "3-Sacramento-Hwy99atHwy52",
+        "friendly_name": "3 / Sacramento / Hwy 99 at Hwy 5 2",
     },
-    "3 / Sacramento / Hwy 99 at Hwy 5 3": {
+    "3-Sacramento-Hwy99atHwy53": {
         "longitude": "-121.54035608100833",
         "latitude": "38.671021779452666",
         "stream": "/D3/99_JCT5_SAC99_SB_3.stream",
+        "simple_name": "3-Sacramento-Hwy99atHwy53",
+        "friendly_name": "3 / Sacramento / Hwy 99 at Hwy 5 3",
     },
-    "3 / Sacramento / Hwy 80 at JCT244 EB": {
+    "3-Sacramento-Hwy80atJCT244EB": {
         "longitude": "-121.372681",
         "latitude": "38.64886",
         "stream": "/D3/80_JCT244_SAC80_EB.stream",
+        "simple_name": "3-Sacramento-Hwy80atJCT244EB",
+        "friendly_name": "3 / Sacramento / Hwy 80 at JCT244 EB",
     },
-    "3 / West Sacramento / Hwy 50 at Jefferson Blvd 1": {
+    "3-WestSacramento-Hwy50atJeffersonBlvd1": {
         "longitude": "-121.525241",
         "latitude": "38.577039",
         "stream": "/D3/50_Jefferson_Blvd_YOL50_EB_1.stream",
+        "simple_name": "3-WestSacramento-Hwy50atJeffersonBlvd1",
+        "friendly_name": "3 / West Sacramento / Hwy 50 at Jefferson Blvd 1",
     },
-    "3 / West Sacramento / Hwy 50 at Jefferson Blvd 2": {
+    "3-WestSacramento-Hwy50atJeffersonBlvd2": {
         "longitude": "-121.525241",
         "latitude": "38.577039",
         "stream": "/D3/50_Jefferson_Blvd_YOL50_EB_2.stream",
+        "simple_name": "3-WestSacramento-Hwy50atJeffersonBlvd2",
+        "friendly_name": "3 / West Sacramento / Hwy 50 at Jefferson Blvd 2",
     },
-    "3 / West Sacramento / Hwy 50 at Jefferson Blvd 3": {
+    "3-WestSacramento-Hwy50atJeffersonBlvd3": {
         "longitude": "-121.525241",
         "latitude": "38.577039",
         "stream": "/D3/50_Jefferson_Blvd_YOL50_EB_3.stream",
+        "simple_name": "3-WestSacramento-Hwy50atJeffersonBlvd3",
+        "friendly_name": "3 / West Sacramento / Hwy 50 at Jefferson Blvd 3",
     },
-    "3 / West Sacramento / Hwy 50 at South River Rd 1": {
+    "3-WestSacramento-Hwy50atSouthRiverRd1": {
         "longitude": "-121.52015",
         "latitude": "38.574913",
         "stream": "/D3/50_South_River_Rd_YOL50_WB_1.stream",
+        "simple_name": "3-WestSacramento-Hwy50atSouthRiverRd1",
+        "friendly_name": "3 / West Sacramento / Hwy 50 at South River Rd 1",
     },
-    "3 / West Sacramento / Hwy 50 at South River Rd 2": {
+    "3-WestSacramento-Hwy50atSouthRiverRd2": {
         "longitude": "-121.52015",
         "latitude": "38.574913",
         "stream": "/D3/50_South_River_Rd_YOL50_WB_2.stream",
+        "simple_name": "3-WestSacramento-Hwy50atSouthRiverRd2",
+        "friendly_name": "3 / West Sacramento / Hwy 50 at South River Rd 2",
     },
-    "3 / West Sacramento / Hwy 50 at South River Rd 3": {
+    "3-WestSacramento-Hwy50atSouthRiverRd3": {
         "longitude": "-121.52015",
         "latitude": "38.574913",
         "stream": "/D3/50_South_River_Rd_YOL50_WB_3.stream",
+        "simple_name": "3-WestSacramento-Hwy50atSouthRiverRd3",
+        "friendly_name": "3 / West Sacramento / Hwy 50 at South River Rd 3",
     },
-    "3 / Sacramento / Hwy 50 at Manlove POC 1": {
+    "3-Sacramento-Hwy50atManlovePOC1": {
         "longitude": "-121.372667",
         "latitude": "38.559338",
         "stream": "/D3/50_Manlove_POC_JEO_SAC50_EB_1.stream",
+        "simple_name": "3-Sacramento-Hwy50atManlovePOC1",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Manlove POC 1",
     },
-    "3 / Sacramento / Hwy 50 at Manlove POC 2": {
+    "3-Sacramento-Hwy50atManlovePOC2": {
         "longitude": "-121.372667",
         "latitude": "38.559338",
         "stream": "/D3/50_Manlove_POC_JEO_SAC50_EB_2.stream",
+        "simple_name": "3-Sacramento-Hwy50atManlovePOC2",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Manlove POC 2",
     },
-    "3 / Sacramento / Hwy 50 at Mayhew Rd WO 1": {
+    "3-Sacramento-Hwy50atMayhewRdWO1": {
         "longitude": "-121.360261",
         "latitude": "38.561003",
         "stream": "/D3/50_Mayhew_Rd_WO_SAC50_WB_1.stream",
+        "simple_name": "3-Sacramento-Hwy50atMayhewRdWO1",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Mayhew Rd WO 1",
     },
-    "3 / Sacramento / Hwy 50 at Mayhew Rd WO 2": {
+    "3-Sacramento-Hwy50atMayhewRdWO2": {
         "longitude": "-121.360261",
         "latitude": "38.561003",
         "stream": "/D3/50_Mayhew_Rd_WO_SAC50_WB_2.stream",
+        "simple_name": "3-Sacramento-Hwy50atMayhewRdWO2",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Mayhew Rd WO 2",
     },
-    "3 / Sacramento / Hwy 50 at Mayhew Rd WO 3": {
+    "3-Sacramento-Hwy50atMayhewRdWO3": {
         "longitude": "-121.360261",
         "latitude": "38.561003",
         "stream": "/D3/50_Mayhew_Rd_WO_SAC50_WB_3.stream",
+        "simple_name": "3-Sacramento-Hwy50atMayhewRdWO3",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Mayhew Rd WO 3",
     },
-    "3 / Sacramento / Hwy 50 at Mather Field EB 1": {
+    "3-Sacramento-Hwy50atMatherFieldEB1": {
         "longitude": "-121.308156",
         "latitude": "38.578006",
         "stream": "/D3/50_Mather_Field_SAC50_EB_1.stream",
+        "simple_name": "3-Sacramento-Hwy50atMatherFieldEB1",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Mather Field EB 1",
     },
-    "3 / Sacramento / Hwy 50 at Mather Field EB 2": {
+    "3-Sacramento-Hwy50atMatherFieldEB2": {
         "longitude": "-121.308156",
         "latitude": "38.578006",
         "stream": "/D3/50_Mather_Field_SAC50_EB_2.stream",
+        "simple_name": "3-Sacramento-Hwy50atMatherFieldEB2",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Mather Field EB 2",
     },
-    "3 / Sacramento / Hwy 50 at Mather Field EB 3": {
+    "3-Sacramento-Hwy50atMatherFieldEB3": {
         "longitude": "-121.308156",
         "latitude": "38.578006",
         "stream": "/D3/50_Mather_Field_SAC50_EB_3.stream",
+        "simple_name": "3-Sacramento-Hwy50atMatherFieldEB3",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Mather Field EB 3",
     },
-    "3 / Rancho Cordova / Hwy 50 at White Rock POC EO 1": {
+    "3-RanchoCordova-Hwy50atWhiteRockPOCEO1": {
         "longitude": "-121.29498200",
         "latitude": "38.58670300",
         "stream": "/D3/50_White_Rock_POC_EO_SAC50_WB_1.stream",
+        "simple_name": "3-RanchoCordova-Hwy50atWhiteRockPOCEO1",
+        "friendly_name": "3 / Rancho Cordova / Hwy 50 at White Rock POC EO 1",
     },
-    "3 / Rancho Cordova / Hwy 50 at White Rock POC EO 2": {
+    "3-RanchoCordova-Hwy50atWhiteRockPOCEO2": {
         "longitude": "-121.29498200",
         "latitude": "38.58670300",
         "stream": "/D3/50_White_Rock_POC_EO_SAC50_WB_2.stream",
+        "simple_name": "3-RanchoCordova-Hwy50atWhiteRockPOCEO2",
+        "friendly_name": "3 / Rancho Cordova / Hwy 50 at White Rock POC EO 2",
     },
-    "3 / Rancho Cordova / Hwy 50 at White Rock POC EO 3": {
+    "3-RanchoCordova-Hwy50atWhiteRockPOCEO3": {
         "longitude": "-121.29498200",
         "latitude": "38.58670300",
         "stream": "/D3/50_White_Rock_POC_EO_SAC50_WB_3.stream",
+        "simple_name": "3-RanchoCordova-Hwy50atWhiteRockPOCEO3",
+        "friendly_name": "3 / Rancho Cordova / Hwy 50 at White Rock POC EO 3",
     },
-    "3 / Rancho Cordova / Hwy 50 at Zinfandel Dr EB 1": {
+    "3-RanchoCordova-Hwy50atZinfandelDrEB1": {
         "longitude": "-121.28773",
         "latitude": "38.590256",
         "stream": "/D3/50_Zinfandel_Dr_SAC50_EB_1.stream",
+        "simple_name": "3-RanchoCordova-Hwy50atZinfandelDrEB1",
+        "friendly_name": "3 / Rancho Cordova / Hwy 50 at Zinfandel Dr EB 1",
     },
-    "3 / Rancho Cordova / Hwy 50 at Zinfandel Dr EB 2": {
+    "3-RanchoCordova-Hwy50atZinfandelDrEB2": {
         "longitude": "-121.28773",
         "latitude": "38.590256",
         "stream": "/D3/50_Zinfandel_Dr_SAC50_EB_2.stream",
+        "simple_name": "3-RanchoCordova-Hwy50atZinfandelDrEB2",
+        "friendly_name": "3 / Rancho Cordova / Hwy 50 at Zinfandel Dr EB 2",
     },
-    "3 / Rancho Cordova / Hwy 50 at Zinfandel Dr EB 3": {
+    "3-RanchoCordova-Hwy50atZinfandelDrEB3": {
         "longitude": "-121.28773",
         "latitude": "38.590256",
         "stream": "/D3/50_Zinfandel_Dr_SAC50_EB_3.stream",
+        "simple_name": "3-RanchoCordova-Hwy50atZinfandelDrEB3",
+        "friendly_name": "3 / Rancho Cordova / Hwy 50 at Zinfandel Dr EB 3",
     },
-    "3 / Rancho Cordova / Hwy 50 at Zinfandel Dr EO EB 1": {
+    "3-RanchoCordova-Hwy50atZinfandelDrEOEB1": {
         "longitude": "-121.277972",
         "latitude": "38.597857",
         "stream": "/D3/50_Zinfandel_Dr_EO_SAC50_EB_1.stream",
+        "simple_name": "3-RanchoCordova-Hwy50atZinfandelDrEOEB1",
+        "friendly_name": "3 / Rancho Cordova / Hwy 50 at Zinfandel Dr EO EB 1",
     },
-    "3 / Rancho Cordova / Hwy 50 at Zinfandel Dr EO EB 2": {
+    "3-RanchoCordova-Hwy50atZinfandelDrEOEB2": {
         "longitude": "-121.277972",
         "latitude": "38.597857",
         "stream": "/D3/50_Zinfandel_Dr_EO_SAC50_EB_2.stream",
+        "simple_name": "3-RanchoCordova-Hwy50atZinfandelDrEOEB2",
+        "friendly_name": "3 / Rancho Cordova / Hwy 50 at Zinfandel Dr EO EB 2",
     },
-    "3 / Rancho Cordova / Hwy 50 at Zinfandel Dr EO EB 3": {
+    "3-RanchoCordova-Hwy50atZinfandelDrEOEB3": {
         "longitude": "-121.277972",
         "latitude": "38.597857",
         "stream": "/D3/50_Zinfandel_Dr_EO_SAC50_EB_3.stream",
+        "simple_name": "3-RanchoCordova-Hwy50atZinfandelDrEOEB3",
+        "friendly_name": "3 / Rancho Cordova / Hwy 50 at Zinfandel Dr EO EB 3",
     },
-    "3 / Rancho Cordova / Hwy 50 at Sunrise Blvd OC JWO WB 1": {
+    "3-RanchoCordova-Hwy50atSunriseBlvdOCJWOWB1": {
         "longitude": "-121.270927",
         "latitude": "38.609259",
         "stream": "/D3/50_Sunrise_Blvd_OC_JWO_SAC50_WB_1.stream",
+        "simple_name": "3-RanchoCordova-Hwy50atSunriseBlvdOCJWOWB1",
+        "friendly_name": "3 / Rancho Cordova / Hwy 50 at Sunrise Blvd OC JWO WB 1",
     },
-    "3 / Rancho Cordova / Hwy 50 at Sunrise Blvd OC JWO WB 2": {
+    "3-RanchoCordova-Hwy50atSunriseBlvdOCJWOWB2": {
         "longitude": "-121.270927",
         "latitude": "38.609259",
         "stream": "/D3/50_Sunrise_Blvd_OC_JWO_SAC50_WB_2.stream",
+        "simple_name": "3-RanchoCordova-Hwy50atSunriseBlvdOCJWOWB2",
+        "friendly_name": "3 / Rancho Cordova / Hwy 50 at Sunrise Blvd OC JWO WB 2",
     },
-    "3 / Sacramento / Hwy 50 at Mayhew Rd 1": {
+    "3-Sacramento-Hwy50atMayhewRd1": {
         "longitude": "-121.34779",
         "latitude": "38.561966",
         "stream": "/D3/50_Mayhew_Rd_JEO_SAC50_EB_1.stream",
+        "simple_name": "3-Sacramento-Hwy50atMayhewRd1",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Mayhew Rd 1",
     },
-    "3 / Sacramento / Hwy 50 at Mayhew Rd 2": {
+    "3-Sacramento-Hwy50atMayhewRd2": {
         "longitude": "-121.34779",
         "latitude": "38.561966",
         "stream": "/D3/50_Mayhew_Rd_JEO_SAC50_EB_2.stream",
+        "simple_name": "3-Sacramento-Hwy50atMayhewRd2",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Mayhew Rd 2",
     },
-    "3 / Rancho Cordova / Hwy 50 at Sunrise Blvd EO WB 2": {
+    "3-RanchoCordova-Hwy50atSunriseBlvdEOWB2": {
         "longitude": "-121.253438",
         "latitude": "38.615681",
         "stream": "/D3/50_Sunrise_Blvd_EO_SAC50_WB_2.stream",
+        "simple_name": "3-RanchoCordova-Hwy50atSunriseBlvdEOWB2",
+        "friendly_name": "3 / Rancho Cordova / Hwy 50 at Sunrise Blvd EO WB 2",
     },
-    "3 / Rancho Cordova / Hwy 50 at Sunrise Blvd EO WB 1": {
+    "3-RanchoCordova-Hwy50atSunriseBlvdEOWB1": {
         "longitude": "-121.253438",
         "latitude": "38.615681",
         "stream": "/D3/50_Sunrise_Blvd_EO_SAC50_WB_1.stream",
+        "simple_name": "3-RanchoCordova-Hwy50atSunriseBlvdEOWB1",
+        "friendly_name": "3 / Rancho Cordova / Hwy 50 at Sunrise Blvd EO WB 1",
     },
-    "3 / Sacramento / Hwy 50 at Bradshaw Rd 1": {
+    "3-Sacramento-Hwy50atBradshawRd1": {
         "longitude": "-121.33639",
         "latitude": "38.565796",
         "stream": "/D3/50_Bradshaw_Rd_SAC50_EB_1.stream",
+        "simple_name": "3-Sacramento-Hwy50atBradshawRd1",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Bradshaw Rd 1",
     },
-    "3 / Sacramento / Hwy 50 at Bradshaw Rd 2": {
+    "3-Sacramento-Hwy50atBradshawRd2": {
         "longitude": "-121.33639",
         "latitude": "38.565796",
         "stream": "/D3/50_Bradshaw_Rd_SAC50_EB_2.stream",
+        "simple_name": "3-Sacramento-Hwy50atBradshawRd2",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Bradshaw Rd 2",
     },
-    "3 / Sacramento / Hwy 50 at Bradshaw Rd 3": {
+    "3-Sacramento-Hwy50atBradshawRd3": {
         "longitude": "-121.33639",
         "latitude": "38.565796",
         "stream": "/D3/50_Bradshaw_Rd_SAC50_EB_3.stream",
+        "simple_name": "3-Sacramento-Hwy50atBradshawRd3",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Bradshaw Rd 3",
     },
-    "3 / Sacramento / Hwy 50 at Bradshaw Rd EO 1": {
+    "3-Sacramento-Hwy50atBradshawRdEO1": {
         "longitude": "-121.326692",
         "latitude": "38.570817",
         "stream": "/D3/50_Bradshaw_Rd_EO_SAC50_WB_1.stream",
+        "simple_name": "3-Sacramento-Hwy50atBradshawRdEO1",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Bradshaw Rd EO 1",
     },
-    "3 / Folsom / Hwy 50 at Prairie City Rd WO WB 3": {
+    "3-Folsom-Hwy50atPrairieCityRdWOWB3": {
         "longitude": "-121.179228",
         "latitude": "38.642315",
         "stream": "/D3/50_Prairie_City_Rd_WO_SAC50_WB_3.stream",
+        "simple_name": "3-Folsom-Hwy50atPrairieCityRdWOWB3",
+        "friendly_name": "3 / Folsom / Hwy 50 at Prairie City Rd WO WB 3",
     },
-    "3 / Sacramento / Hwy 50 at Bradshaw Rd EO 2": {
+    "3-Sacramento-Hwy50atBradshawRdEO2": {
         "longitude": "-121.326692",
         "latitude": "38.570817",
         "stream": "/D3/50_Bradshaw_Rd_EO_SAC50_WB_2.stream",
+        "simple_name": "3-Sacramento-Hwy50atBradshawRdEO2",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Bradshaw Rd EO 2",
     },
-    "3 / Sacramento / Hwy 50 at Bradshaw Rd EO 3": {
+    "3-Sacramento-Hwy50atBradshawRdEO3": {
         "longitude": "-121.326692",
         "latitude": "38.570817",
         "stream": "/D3/50_Bradshaw_Rd_EO_SAC50_WB_3.stream",
+        "simple_name": "3-Sacramento-Hwy50atBradshawRdEO3",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Bradshaw Rd EO 3",
     },
-    "3 / Sacramento / Hwy 50 at Routier Rd JWO 1": {
+    "3-Sacramento-Hwy50atRoutierRdJWO1": {
         "longitude": "-121.319468",
         "latitude": "38.573543",
         "stream": "/D3/50_Routier_Rd_OC_JWO_SAC50_WB_1.stream",
+        "simple_name": "3-Sacramento-Hwy50atRoutierRdJWO1",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Routier Rd JWO 1",
     },
-    "3 / Sacramento / Hwy 50 at Routier Rd JWO 2": {
+    "3-Sacramento-Hwy50atRoutierRdJWO2": {
         "longitude": "-121.319468",
         "latitude": "38.573543",
         "stream": "/D3/50_Routier_Rd_OC_JWO_SAC50_WB_2.stream",
+        "simple_name": "3-Sacramento-Hwy50atRoutierRdJWO2",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Routier Rd JWO 2",
     },
-    "3 / Folsom / Hwy 50 at Prairie City Rd WO WB 1": {
+    "3-Folsom-Hwy50atPrairieCityRdWOWB1": {
         "longitude": "-121.179228",
         "latitude": "38.642315",
         "stream": "/D3/50_Prairie_City_Rd_WO_SAC50_WB_1.stream",
+        "simple_name": "3-Folsom-Hwy50atPrairieCityRdWOWB1",
+        "friendly_name": "3 / Folsom / Hwy 50 at Prairie City Rd WO WB 1",
     },
-    "3 / Sacramento / Hwy 50 at Routier Rd JEO 1": {
+    "3-Sacramento-Hwy50atRoutierRdJEO1": {
         "longitude": "-121.316762",
         "latitude": "38.575148",
         "stream": "/D3/50_Routier_Rd_OC_JEO_SAC50_WB_1.stream",
+        "simple_name": "3-Sacramento-Hwy50atRoutierRdJEO1",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Routier Rd JEO 1",
     },
-    "3 / Sacramento / Hwy 50 at Routier Rd JWO 3": {
+    "3-Sacramento-Hwy50atRoutierRdJWO3": {
         "longitude": "-121.319468",
         "latitude": "38.573543",
         "stream": "/D3/50_Routier_Rd_OC_JWO_SAC50_WB_3.stream",
+        "simple_name": "3-Sacramento-Hwy50atRoutierRdJWO3",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Routier Rd JWO 3",
     },
-    "3 / Sacramento / Hwy 50 at Routier Rd JEO 2": {
+    "3-Sacramento-Hwy50atRoutierRdJEO2": {
         "longitude": "-121.316762",
         "latitude": "38.575148",
         "stream": "/D3/50_Routier_Rd_OC_JEO_SAC50_WB_12.stream",
+        "simple_name": "3-Sacramento-Hwy50atRoutierRdJEO2",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Routier Rd JEO 2",
     },
-    "3 / Sacramento / Hwy 50 at Routier Rd JEO 3": {
+    "3-Sacramento-Hwy50atRoutierRdJEO3": {
         "longitude": "-121.316762",
         "latitude": "38.575148",
         "stream": "/D3/50_Routier_Rd_OC_JEO_SAC50_WB_3.stream",
+        "simple_name": "3-Sacramento-Hwy50atRoutierRdJEO3",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Routier Rd JEO 3",
     },
-    "3 / Rancho Cordova / Hwy 50 at Hazel Ave OC WO WB 1": {
+    "3-RanchoCordova-Hwy50atHazelAveOCWOWB1": {
         "longitude": "-121.22572800",
         "latitude": "38.62648400",
         "stream": "/D3/50_Hazel_Ave_OC_WO_SAC50_WB_1.stream",
+        "simple_name": "3-RanchoCordova-Hwy50atHazelAveOCWOWB1",
+        "friendly_name": "3 / Rancho Cordova / Hwy 50 at Hazel Ave OC WO WB 1",
     },
-    "3 / Rancho Cordova / Hwy 50 at Hazel Ave OC WO WB 2": {
+    "3-RanchoCordova-Hwy50atHazelAveOCWOWB2": {
         "longitude": "-121.22572800",
         "latitude": "38.62648400",
         "stream": "/D3/50_Hazel_Ave_OC_WO_SAC50_WB_2.stream",
+        "simple_name": "3-RanchoCordova-Hwy50atHazelAveOCWOWB2",
+        "friendly_name": "3 / Rancho Cordova / Hwy 50 at Hazel Ave OC WO WB 2",
     },
-    "3 / Rancho Cordova / Hwy 50 at Hazel Ave OC WO WB 3": {
+    "3-RanchoCordova-Hwy50atHazelAveOCWOWB3": {
         "longitude": "-121.22572800",
         "latitude": "38.62648400",
         "stream": "/D3/50_Hazel_Ave_OC_WO_SAC50_WB_3.stream",
+        "simple_name": "3-RanchoCordova-Hwy50atHazelAveOCWOWB3",
+        "friendly_name": "3 / Rancho Cordova / Hwy 50 at Hazel Ave OC WO WB 3",
     },
-    "3 / Sacramento / Hwy 50 at Mayhew Rd 3": {
+    "3-Sacramento-Hwy50atMayhewRd3": {
         "longitude": "-121.34779",
         "latitude": "38.561966",
         "stream": "/D3/50_Mayhew_Rd_JEO_SAC50_EB_3.stream",
+        "simple_name": "3-Sacramento-Hwy50atMayhewRd3",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Mayhew Rd 3",
     },
-    "3 / Sacramento / Hwy 50 at Manlove POC 3": {
+    "3-Sacramento-Hwy50atManlovePOC3": {
         "longitude": "-121.372667",
         "latitude": "38.559338",
         "stream": "/D3/50_Manlove_POC_JEO_SAC50_EB_3.stream",
+        "simple_name": "3-Sacramento-Hwy50atManlovePOC3",
+        "friendly_name": "3 / Sacramento / Hwy 50 at Manlove POC 3",
     },
-    "3 / Sacramento / Hwy 51 at Hwy 160 1": {
+    "3-Sacramento-Hwy51atHwy1601": {
         "longitude": "-121.43958",
         "latitude": "38.599961",
         "stream": "/D3/51_JCT160_SAC51_NB_1.stream",
+        "simple_name": "3-Sacramento-Hwy51atHwy1601",
+        "friendly_name": "3 / Sacramento / Hwy 51 at Hwy 160 1",
     },
-    "3 / Sacramento / Hwy 51 at Hwy 160 2": {
+    "3-Sacramento-Hwy51atHwy1602": {
         "longitude": "-121.43958",
         "latitude": "38.599961",
         "stream": "/D3/51_JCT160_SAC51_NB_2.stream",
+        "simple_name": "3-Sacramento-Hwy51atHwy1602",
+        "friendly_name": "3 / Sacramento / Hwy 51 at Hwy 160 2",
     },
-    "3 / Sacramento / Hwy 51 at Hwy 160 3": {
+    "3-Sacramento-Hwy51atHwy1603": {
         "longitude": "-121.43958",
         "latitude": "38.599961",
         "stream": "/D3/51_JCT160_SAC51_NB_3.stream",
+        "simple_name": "3-Sacramento-Hwy51atHwy1603",
+        "friendly_name": "3 / Sacramento / Hwy 51 at Hwy 160 3",
     },
-    "3 / Sacramento / Hwy 5 at Vallejo": {
+    "3-Sacramento-Hwy5atVallejo": {
         "longitude": "-121.514",
         "latitude": "38.55934",
         "stream": "/D3/5_Vallejo_Way_SAC5_NB.stream",
+        "simple_name": "3-Sacramento-Hwy5atVallejo",
+        "friendly_name": "3 / Sacramento / Hwy 5 at Vallejo",
     },
-    "3 / Sacramento / Hwy 5 at 6th Ave": {
+    "3-Sacramento-Hwy5at6thAve": {
         "longitude": "-121.511",
         "latitude": "38.55161",
         "stream": "/D3/5_6th_Ave_SAC5_NB.stream",
+        "simple_name": "3-Sacramento-Hwy5at6thAve",
+        "friendly_name": "3 / Sacramento / Hwy 5 at 6th Ave",
     },
-    "3 / Folsom / Hwy 50 at Prairie City Rd WO WB 2": {
+    "3-Folsom-Hwy50atPrairieCityRdWOWB2": {
         "longitude": "-121.179228",
         "latitude": "38.642315",
         "stream": "/D3/50_Prairie_City_Rd_WO_SAC50_WB_2.stream",
+        "simple_name": "3-Folsom-Hwy50atPrairieCityRdWOWB2",
+        "friendly_name": "3 / Folsom / Hwy 50 at Prairie City Rd WO WB 2",
     },
-    "3 / Rancho Cordova / Hwy 50 at Sunrise Blvd OC JWO WB 3": {
+    "3-RanchoCordova-Hwy50atSunriseBlvdOCJWOWB3": {
         "longitude": "-121.270927",
         "latitude": "38.609259",
         "stream": "/D3/50_Sunrise_Blvd_OC_JWO_SAC50_WB_3.stream",
+        "simple_name": "3-RanchoCordova-Hwy50atSunriseBlvdOCJWOWB3",
+        "friendly_name": "3 / Rancho Cordova / Hwy 50 at Sunrise Blvd OC JWO WB 3",
     },
-    "3 / Rancho Cordova / Hwy 50 at Sunrise Blvd EO WB 3": {
+    "3-RanchoCordova-Hwy50atSunriseBlvdEOWB3": {
         "longitude": "-121.253438",
         "latitude": "38.615681",
         "stream": "/D3/50_Sunrise_Blvd_EO_SAC50_WB_3.stream",
+        "simple_name": "3-RanchoCordova-Hwy50atSunriseBlvdEOWB3",
+        "friendly_name": "3 / Rancho Cordova / Hwy 50 at Sunrise Blvd EO WB 3",
     },
-    "3 / Oroville / Hwy 99 at Hwy 162": {
+    "3-Oroville-Hwy99atHwy162": {
         "longitude": "-121.688389",
         "latitude": "39.494028",
         "stream": "/D3/99_JCT162E_BUT99_NB.stream",
+        "simple_name": "3-Oroville-Hwy99atHwy162",
+        "friendly_name": "3 / Oroville / Hwy 99 at Hwy 162",
     },
-    "3 / Penn Valley / Hwy 20 at Pleasant Valley Rd": {
+    "3-PennValley-Hwy20atPleasantValleyRd": {
         "longitude": "-121.204833",
         "latitude": "39.205111",
         "stream": "/D3/20_Pleasant_Valley_Rd_NEV20_EB.stream",
+        "simple_name": "3-PennValley-Hwy20atPleasantValleyRd",
+        "friendly_name": "3 / Penn Valley / Hwy 20 at Pleasant Valley Rd",
     },
-    "3 / Elk Grove / Hwy 99 at Dillard": {
+    "3-ElkGrove-Hwy99atDillard": {
         "longitude": "-121.334628",
         "latitude": "38.342340",
         "stream": "/D3/99_Dillard_Rd_SAC99_NB.stream",
+        "simple_name": "3-ElkGrove-Hwy99atDillard",
+        "friendly_name": "3 / Elk Grove / Hwy 99 at Dillard",
     },
-    "3 / Butte City / Hwy 162 at JCT162 and 45": {
+    "3-ButteCity-Hwy162atJCT162and45": {
         "longitude": "-122.015718",
         "latitude": "39.457219",
         "stream": "/D3/162_JCT45_GLE162_EB.stream",
+        "simple_name": "3-ButteCity-Hwy162atJCT162and45",
+        "friendly_name": "3 / Butte City / Hwy 162 at JCT162 and 45",
     },
-    "3 / Yuba City / Hwy 70 at Ramirez": {
+    "3-YubaCity-Hwy70atRamirez": {
         "longitude": "-121.597602",
         "latitude": "39.264525",
         "stream": "/D3/70_Ramirez_Rd_YUB70_WB.stream",
+        "simple_name": "3-YubaCity-Hwy70atRamirez",
+        "friendly_name": "3 / Yuba City / Hwy 70 at Ramirez",
     },
-    "3 / Marysville / Hwy 70 at Saddleback": {
+    "3-Marysville-Hwy70atSaddleback": {
         "longitude": "-121.594635",
         "latitude": "39.189445",
         "stream": "/D3/70_Saddleback_Dr_YUB70_NB.stream",
+        "simple_name": "3-Marysville-Hwy70atSaddleback",
+        "friendly_name": "3 / Marysville / Hwy 70 at Saddleback",
     },
 }

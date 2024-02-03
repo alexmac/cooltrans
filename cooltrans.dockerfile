@@ -4,6 +4,7 @@ RUN apt-get update \
     && apt-get install --no-install-recommends -y \
     ca-certificates \
     dumb-init \
+    ffmpeg \
     python3 \
     python3-pip \
     wget \
