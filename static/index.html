@@ -9,7 +9,7 @@
     <div id="map" style="width:720px;height:240px"></div>
 
     <video id="vid" width="720" height="480" controls autoplay muted>
-        <source src="http://localhost:8081/api/cooltrans/proxy/D3/89_Alpine_Meadows_PLA89_NB.stream/playlist.m3u8" type="application/x-mpegURL">
+        <source src="http://localhost:8081/api/cooltrans/proxy/caltrans/D3/89_Alpine_Meadows_PLA89_NB.stream/playlist.m3u8" type="application/x-mpegURL">
     </video>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
@@ -27,6 +27,7 @@
         .then(json => {
             for (let key in json.locations) {
                 const location = json.locations[key];
+                const source = location.source;
                 const longitude = parseFloat(location.longitude);
                 const latitude = parseFloat(location.latitude);
                 
@@ -38,7 +39,7 @@
                     const videoElement = document.getElementById('vid');
                     if (videoElement) {
                         console.log("switching to stream: " + location.stream)
-                        videoElement.src = "http://localhost:8081/api/cooltrans/proxy" + location.stream + "/playlist.m3u8";
+                        videoElement.src = "http://localhost:8081/api/cooltrans/proxy/" + source + location.stream + "/playlist.m3u8";
                         videoElement.load(); // Load the new video source
                         videoElement.play(); // Play the video if needed
                     }
