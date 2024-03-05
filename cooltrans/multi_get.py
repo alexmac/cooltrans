@@ -8,7 +8,7 @@ from aiohttp.web import HTTPTooManyRequests
 from tenacity import retry, wait_random_exponential
 
 from cooltrans.data.urls import caltrans_wzmedia_baseurl
-from cooltrans.session import get_shared_session
+from cooltrans.session import get_shared_session_for_ip
 
 
 async def consume_gathered_tasks(done, pending):
@@ -40,7 +40,7 @@ async def multi_get(
 
     async def _get(loc: str, ip: str):
         try:
-            session = get_shared_session(ip)
+            session = get_shared_session_for_ip(ip)
             async with session.get(caltrans_wzmedia_baseurl / loc) as r:
                 if r.status == 200:
                     body = await r.read()
