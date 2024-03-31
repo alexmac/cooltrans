@@ -2,7 +2,7 @@ HASH := $(shell tar -cf - --exclude='./.git' . | shasum | cut -d' ' -f1)
 
 DOCKER_IMAGE_BASE := ${AWS_ACCOUNT_ID}.dkr.ecr.us-west-2.amazonaws.com
 
-build: docker-push-cooltrans
+build: docker-push-cooltrans docker-push-twitch
 
 .PHONY: docker-build-% docker-push-% create-ecr-repo-%
 

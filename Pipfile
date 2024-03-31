@@ -2,6 +2,7 @@
 aiohttp = "~=3.9"
 alxhttp = "*"
 tenacity = "*"
+aws-xray-sdk = "*"
 
 [dev-packages]
 black = "*"
