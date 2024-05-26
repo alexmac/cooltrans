@@ -3,6 +3,10 @@ aiohttp = "~=3.9"
 alxhttp = "*"
 tenacity = "*"
 aws-xray-sdk = "*"
+opentelemetry-instrumentation-requests = "*"
+opentelemetry-instrumentation-urllib = "*"
+opentelemetry-instrumentation-aiohttp-client = "*"
+opentelemetry-instrumentation-urllib3 = "*"
 
 [dev-packages]
 black = "*"
