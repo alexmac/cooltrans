@@ -22,4 +22,4 @@ server = "python cooltrans_server.py"
 tidy = "bash -cxe 'isort . && black . && ruff .'"
 
 [requires]
-python_version = "3.11"
+python_version = "3.12"

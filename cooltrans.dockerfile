@@ -1,4 +1,4 @@
-FROM public.ecr.aws/debian/debian:stable
+FROM public.ecr.aws/docker/library/debian:unstable-slim
 
 RUN apt-get update \
     && apt-get install --no-install-recommends -y \
