@@ -26,11 +26,9 @@ from alxhttp.server import Server
 from alxhttp.xray import init_xray
 from yarl import URL
 
-from cooltrans.data.cctv import cctv_locations
+from cooltrans.data.cctv import cctv_locations, valid_paths
 from cooltrans.data.ips import useable_ips
-from cooltrans.data.ndot_cctv import ndot_cctv_locations
-from cooltrans.data.streams import valid_paths
-from cooltrans.data.urls import ndot_baseurl
+from cooltrans.data.ndot_cctv import ndot_cctv_locations, ndot_stream_to_server
 from cooltrans.multi_get import multi_get
 from cooltrans.session import get_shared_session
 
@@ -71,12 +69,16 @@ async def ndot_proxy(s: CooltransServer, req: Request) -> StreamResponse:
     if not ndot_file_pattern.match(f"/{loc.path}"):
         return HTTPBadRequest(text="invalid path")
 
-    async with get_shared_session().get(ndot_baseurl / loc.path) as r:
+    stream_loc = loc.path.find(".stream")
+    server = ndot_stream_to_server[f"/{loc.path[:stream_loc+7]}"]
+    stream_url = URL.build(scheme="https", host=server, path="/" + loc.path)
+
+    async with get_shared_session().get(stream_url) as r:
         if r.status == 200:
             body = await r.read()
             content_type = r.headers["content-type"]
         else:
-            return HTTPBadRequest(text="invalid file")
+            return HTTPBadRequest(text=f"invalid file: {stream_url}")
 
     return Response(
         body=body,

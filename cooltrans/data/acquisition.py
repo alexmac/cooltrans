@@ -37,13 +37,17 @@ async def get_valid_cctv_locations() -> Dict[str, Dict]:
                 try:
                     name = f'{cctv["location"]["district"]} / {cctv["location"]["nearbyPlace"]} / {cctv["location"]["locationName"]}'
 
-                    cctv_locations[name] = {
+                    simple_name = name.replace(" ", "-").replace("/", "-")
+
+                    cctv_locations[simple_name] = {
                         "longitude": cctv["location"]["longitude"],
                         "latitude": cctv["location"]["latitude"],
-                        "source": "caltrans",
                         "stream": URL(
                             cctv["imageData"]["streamingVideoURL"]
                         ).parent.path,
+                        "simple_name": simple_name,
+                        "friendly_name": name,
+                        "source": "caltrans",
                     }
                 except Exception:
                     pass
@@ -76,13 +80,16 @@ async def get_valid_ndot_cctv_locations() -> Dict[str, Dict]:
                             {"column": 3, "dir": "asc"},
                         ],
                         "start": 0,
-                        "length": 1000,
+                        "length": 10000,
                         "search": {"value": ""},
                     }
                 )
             },
         ) as r:
             body = await r.json()
+
+            with open("ndot.json", "wt+") as f:
+                f.write(json.dumps(body, indent=2))
         for d in body["data"]:
             # if not d["displayCamera"]:
             #     continue
@@ -96,6 +103,7 @@ async def get_valid_ndot_cctv_locations() -> Dict[str, Dict]:
                     "simple_name": name,
                     "friendly_name": d["displayName"],
                     "stream": URL(d["videoUrl"]).parent.path,
+                    "stream_server": URL(d["videoUrl"]).host,
                 }
             except Exception:
                 pass
