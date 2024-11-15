@@ -25,7 +25,7 @@ async def get_valid_stream_paths() -> Set[str]:
 async def get_valid_cctv_locations() -> Dict[str, Dict]:
     cctv_locations = dict()
     async with aiohttp.ClientSession() as session:
-        for i in [2]:
+        for i in [2, 8]:
             async with session.get(
                 f"https://cwwp2.dot.ca.gov/data/d{i+1}/cctv/cctvStatusD{i+1:0>{2}}.json",
             ) as r:
@@ -37,14 +37,17 @@ async def get_valid_cctv_locations() -> Dict[str, Dict]:
                 try:
                     name = f'{cctv["location"]["district"]} / {cctv["location"]["nearbyPlace"]} / {cctv["location"]["locationName"]}'
 
+                    video_url = URL(cctv["imageData"]["streamingVideoURL"]).parent.path
+
+                    if not video_url:
+                        continue
+
                     simple_name = name.replace(" ", "-").replace("/", "-")
 
                     cctv_locations[simple_name] = {
                         "longitude": cctv["location"]["longitude"],
                         "latitude": cctv["location"]["latitude"],
-                        "stream": URL(
-                            cctv["imageData"]["streamingVideoURL"]
-                        ).parent.path,
+                        "stream": video_url,
                         "simple_name": simple_name,
                         "friendly_name": name,
                         "source": "caltrans",
@@ -113,8 +116,8 @@ async def get_valid_ndot_cctv_locations() -> Dict[str, Dict]:
 
 async def main():  # pragma: nocover
     with open("testout", "wt+") as f:
-        # f.write(str(await get_valid_cctv_locations()))
-        f.write(str(await get_valid_ndot_cctv_locations()))
+        f.write(str(await get_valid_cctv_locations()))
+        # f.write(str(await get_valid_ndot_cctv_locations()))
 
 
 if __name__ == "__main__":  # pragma: nocover
