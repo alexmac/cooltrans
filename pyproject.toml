@@ -1,0 +1,24 @@
+[project]
+name = "cooltrans"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+	"aiohttp~=3.9",
+	"alxhttp",
+	"tenacity",
+	"aws-xray-sdk",
+	"opentelemetry-instrumentation-requests",
+	"opentelemetry-instrumentation-urllib",
+	"opentelemetry-instrumentation-aiohttp-client",
+	"opentelemetry-instrumentation-urllib3",
+]
+dev-dependencies= [
+	"black",
+	"isort",
+	"pytest",
+	"pytest-cov",
+	"pytest-mock",
+	"ruff",
+	"twine",
+]

@@ -6,16 +6,17 @@ RUN apt-get update \
     dumb-init \
     ffmpeg \
     python3 \
-    python3-pip \
+    python3-venv \
     wget \
     && apt-get clean
 
-RUN python3 -m pip install --break-system-packages -U pipenv
+RUN wget -qO- https://astral.sh/uv/install.sh | sh
+RUN mv /root/.local/bin/uv* /usr/local/bin/
 EXPOSE 8081
 
 WORKDIR /usr/local/alexmac/cooltrans/
-COPY Pipfile* ./
-RUN pipenv install
+COPY pyproject.toml* ./
+RUN uv venv && uv sync
 
 COPY cooltrans ./cooltrans
 COPY static ./static
@@ -24,4 +25,4 @@ COPY cooltrans_server.py ./
 ENV PYTHONPATH=.
 
 ENTRYPOINT ["/usr/bin/dumb-init", "--"]
-CMD pipenv run python3 cooltrans_server.py
+CMD uv run cooltrans_server.py

@@ -21,7 +21,7 @@ from aiohttp.web import (
 )
 from alxhttp.file import get_file
 from alxhttp.headers import content_security_policy, permissions_policy
-from alxhttp.middleware import default_middleware
+from alxhttp.middleware.defaults import default_middleware
 from alxhttp.server import Server
 from alxhttp.xray import init_xray
 from yarl import URL
